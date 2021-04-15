@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Calligraffitti:100,200,300,400,500,600,700,800|Playfair+Display:100,200,300,400,500,600,700,800|Sriracha&display:100,200,300,400,500,600,700,800|PT+Serif&display:100,200,300,400,500,600,700,800');
 
-body {
+body,
+html {
     position: relative;
     min-height: calc(100vh);
 }
@@ -15,6 +16,12 @@ body {
 
 .header-title {
     background-color: rgb(211, 211, 211, 1);
+}
+
+/*--Book Scroll--*/
+
+.book-bg {
+    background-color: rgb(33, 211, 211, 1);
 }
 
 /*--Footer--*/
