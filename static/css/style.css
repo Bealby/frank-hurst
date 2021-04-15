@@ -4,3 +4,22 @@ body {
     position: relative;
     min-height: calc(100vh);
 }
+
+.navbar-adjust {
+    background-color: rgb(255, 32, 255, 1);
+}
+
+.header-title {
+    background-color: rgb(255, 32, 255, 1);
+}
+
+/*--Media Queries--*/
+
+
+/*---Reduces width and padding in <form> in contact.html for desktop. For smaller devices it resorts back to 100% width and 0 padding---*/
+
+@media(min-width:768px) {
+    .navbar-adjust {
+        background-color: rgb(255, 255, 255, 1)
+    }
+}
