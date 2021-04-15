@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+    <!--Navbar-->
     <nav class="navbar navbar-expand-md navbar-light navbar-adjust">
         <div class="d-md-none">
             <p class="mb-0">Frank Hurst</p>
@@ -54,8 +54,9 @@
         <div class="d-none d-md-block">
             <i class="fab fa-2x fa-instagram"></i>
         </div>
-
     </nav>
+
+    <!--Header-->
     <header>
         <div class="container-fluid d-none d-md-block">
             <div class="row text-center header-title">
@@ -69,6 +70,31 @@
     {% block content %}
 
     {% endblock %}
+
+    <!--Footer-->
+    <footer class="container-fluid" id="wrapper">
+        <div class="row footer">
+            <!--Block Divider-->
+            <div class="col-12">
+                <div class="header-block-divider mx-auto mt-0 mb-4"></div>
+            </div>
+            <div class="col-md-6 col-lg-6 footer-align-email footer-margin-bottom">
+                <a href="mailto:lisafairfield1@gmail.com?">
+                    <p class="footer-menuitem"><i class="far fa-envelope"></i>&nbsp;&nbsp;lisafairfield1@gmail.com</p>
+                    <span class="sr-only">Email</span>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-6 footer-align-tel">
+                <a href="tel:+447890287456">
+                    <p class="footer-menuitem"><i class="fas fa-phone"></i>&nbsp;&nbsp;+44 7890 287 456</p>
+                    <span class="sr-only">Telephone</span>
+                </a>
+            </div>
+            <div class="col-12 copyright text-muted pt-2">
+                <p class="copyright-text">Copyright <i class="far fa-copyright"></i> 2021 Murray Bealby</p>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

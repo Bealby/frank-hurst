@@ -5,10 +5,12 @@ body {
     min-height: calc(100vh);
 }
 
+/*--Navbar--*/
 .navbar-adjust {
     background-color: rgb(255, 32, 255, 1);
 }
 
+/*--Header--*/
 .header-title {
     background-color: rgb(255, 32, 255, 1);
 }
