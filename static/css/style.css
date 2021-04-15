@@ -24,6 +24,12 @@ html {
     background-color: rgb(33, 211, 211, 1);
 }
 
+/*--Images--*/
+
+.book-images {
+    width: 10%;
+}
+
 /*--Footer--*/
 
 .footer {
