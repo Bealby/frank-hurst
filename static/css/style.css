@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Calligraffitti:100,200,300,400,500,600,700,800|Playfair+Display:100,200,300,400,500,600,700,800|Sriracha&display:100,200,300,400,500,600,700,800|PT+Serif&display:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Orelega+One:100,200,300,400,500,600,700,800|Baloo+Da+2:100,200,300,400,500,600,700,800');
 
 body,
 html {
@@ -10,6 +10,8 @@ html {
 
 .navbar-bg {
     background: darkgrey;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 800;
 }
 
 /*--Header--*/
