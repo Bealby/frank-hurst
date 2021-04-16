@@ -8,8 +8,8 @@ html {
 
 /*--Navbar--*/
 
-.navbar-adjust {
-    background-color: rgb(211, 211, 211, 1);
+.navbar-bg {
+    background: darkgrey;
 }
 
 /*--Header--*/
