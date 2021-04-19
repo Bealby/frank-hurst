@@ -38,11 +38,18 @@ def gallery():
     return render_template("gallery.html")
 
 
-# Function to load 'Gallery' page as default
+# Function to load 'News' page as default
 
 @app.route('/news')
 def news():
     return render_template("news.html")
+
+
+# Function to load 'Contact' page as default
+
+@app.route('/contact')
+def contact():
+    return render_template("contact.html")
 
 
 # IP and PORT
