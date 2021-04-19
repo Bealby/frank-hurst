@@ -7,8 +7,16 @@
         <h1 class="text-left pt-4">The Postmistress of Nong Khai</h1>
     </div>
     <div class="col-md-12 col-lg-6">
-        <img src="static/images/book-covers/postmistress.jpg" class="img-fluid book-images"
+        <img id="myImg" src="static/images/book-covers/postmistress.jpg" class="img-fluid book-images"
             alt="The Peccavi Plot - Book Cover" />
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
         <img src="static/images/book-covers/postmistress-back.jpeg" class="img-fluid book-images"
             alt="The Peccavi Plot - Book Cover" />
     </div>
@@ -46,5 +54,11 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/modal.js') }}"></script>
 
 {% endblock %}
