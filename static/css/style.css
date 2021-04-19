@@ -11,15 +11,16 @@ html {
 .navbar-bg {
     background: darkgrey;
     font-family: 'Baloo Da 2', cursive;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .nav-menu a {
-    color: white;
+    color: rgb(255, 199, 0, 1);
 }
 
 .nav-menu a:hover {
-    color: orange;
+    color: rgb(255, 255, 255, 1);
 }
 
 /*--Header--*/
