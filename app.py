@@ -17,6 +17,13 @@ def home():
     return render_template("index.html")
 
 
+# Function to load 'Home' page as default
+
+@app.route('/about')
+def about():
+    return render_template("about.html")
+
+
 # IP and PORT
 
 if __name__ == '__main__':
