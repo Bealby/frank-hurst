@@ -17,35 +17,41 @@ def home():
     return render_template("index.html")
 
 
-# Function to load 'About' page as default
+# Function to load 'About'
 
 @app.route('/about')
 def about():
     return render_template("about.html")
 
 
-# Function to load 'Books' page as default
+# Function to load 'Books'
 
 @app.route('/books')
 def books():
     return render_template("books.html")
 
 
-# Function to load 'Gallery' page as default
+# Function to load 'Book1 - The Postmistress of Nong Khai'
+@app.route('/book1')
+def book1():
+    return render_template("book1.html")
+
+
+# Function to load 'Gallery'
 
 @app.route('/gallery')
 def gallery():
     return render_template("gallery.html")
 
 
-# Function to load 'News' page as default
+# Function to load 'News'
 
 @app.route('/news')
 def news():
     return render_template("news.html")
 
 
-# Function to load 'Contact' page as default
+# Function to load 'Contact'
 
 @app.route('/contact')
 def contact():
