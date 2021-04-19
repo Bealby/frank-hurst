@@ -74,34 +74,25 @@
             <div class="col-12 p-5 book-catalogue text-center">
                 <div class="row">
                     <div class="col-4 p-0">
-                        <div class="bookWrap">
-                            <div class="book">
-                                <a href="{{url_for('book1')}}">
-                                    <img class="cover" src="static/images/book-covers/postmistress.jpg">
-                                </a>
-                                <div class="spine"></div>
-                            </div>
-                        </div>
+                        <a href="{{url_for('book1')}}">
+                            <img src="static/images/book-covers/postmistress.jpg" class="img-fluid book-images"
+                                alt="The Postmistress of Nong Khai - Book Cover" />
+                            <p>The Postmistress of Nong Khai</p>
+                        </a>
                     </div>
                     <div class="col-4 p-0">
-                        <div class="bookWrap">
-                            <div class="book">
-                                <a href="{{url_for('book2')}}">
-                                    <img class="cover" src="static/images/book-covers/changmai.jpg">
-                                </a>
-                                <div class="spine"></div>
-                            </div>
-                        </div>
+                        <a href="{{url_for('book2')}}">
+                            <img src="static/images/book-covers/changmai.jpg" class="img-fluid book-images"
+                                alt="The Chiang Mai Assignment - Book Cover" />
+                            <p>The Chiang Mai Assignment</p>
+                        </a>
                     </div>
                     <div class="col-4 p-0">
-                        <div class="bookWrap">
-                            <div class="book">
-                                <a href="{{url_for('book3')}}">
-                                    <img class="cover" src="static/images/book-covers/mekong.jpg">
-                                </a>
-                                <div class="spine"></div>
-                            </div>
-                        </div>
+                        <a href="{{url_for('book3')}}">
+                            <img src="static/images/book-covers/mekong.jpg" class="img-fluid book-images"
+                                alt="Mekong Dragon - Book Cover" />
+                            <p>Mekong Dragon</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -134,7 +125,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
-    <script src="{{ url_for('static', filename='js/book-effect.js') }}"></script>
 
     {% block scripts %} {% endblock %}
 </body>
