@@ -83,7 +83,9 @@ html {
     box-shadow: inset 0 0.0625rem 0.0625rem rgba(67, 67, 67, 1), 0 0 0.5rem rgba(67, 67, 67, 1) !important;
 }
 
-/* Image Modal */
+/* IMAGE MODAL */
+
+/* Modal - The Postmistress of Nong Khai */
 
 #myImg {
     border-radius: 5px;
@@ -92,6 +94,60 @@ html {
 }
 
 #myImg:hover {
+    opacity: 0.7;
+}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {
+    opacity: 0.7;
+}
+
+/* Modal - The Chiang Mai Assignment */
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {
+    opacity: 0.7;
+}
+
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {
+    opacity: 0.7;
+}
+
+/* Modal - Mekong Dragon */
+
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {
+    opacity: 0.7;
+}
+
+#myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg6:hover {
     opacity: 0.7;
 }
 

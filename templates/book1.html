@@ -8,7 +8,10 @@
     </div>
     <div class="col-md-12 col-lg-6">
         <img id="myImg" src="static/images/book-covers/postmistress.jpg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
+            alt="The Postmistress of Nong Khai" />
+
+        <img id="myImg2" src="static/images/book-covers/postmistress-back.jpeg" class="img-fluid book-images"
+            alt="The Postmistress of Nong Khai" />
 
         <!-- Modal -->
         <div id="myModal" class="modal">
@@ -17,8 +20,6 @@
             <div id="caption"></div>
         </div>
 
-        <img src="static/images/book-covers/postmistress-back.jpeg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
     </div>
     <div class="col-md-12 col-lg-6 my-auto ml-auto">
         <p>Frank’s first book, ‘The Postmistress of Nong Khai’ was the first of three in his ‘Golden Triangle’ series.
@@ -59,6 +60,6 @@
 
 {% block scripts %}
 
-<script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 
 {% endblock %}

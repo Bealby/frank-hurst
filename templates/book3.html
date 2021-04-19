@@ -7,10 +7,18 @@
         <h1 class="text-left pt-4">Mekong Dragon</h1>
     </div>
     <div class="col-md-12 col-lg-6">
-        <img src="static/images/book-covers/mekong.jpg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
-        <img src="static/images/book-covers/mekong-back.jpeg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
+        <img id="myImg5" src="static/images/book-covers/mekong.jpg" class="img-fluid book-images"
+            alt="The Chiang Mai Assignment" />
+        <img id="myImg6" src="static/images/book-covers/mekong-back.jpeg" class="img-fluid book-images"
+            alt="The Chiang Mai Assignment" />
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
     </div>
     <div class="col-md-12 col-lg-6 my-auto ml-auto">
         <p>When the hunter becomes the hunted… When intelligence officer Mike Rawlin becomes the assassination target of
@@ -45,5 +53,11 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/modal-book3.js') }}"></script>
 
 {% endblock %}

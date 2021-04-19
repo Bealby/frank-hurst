@@ -7,10 +7,18 @@
         <h1 class="text-left pt-4">The Chiang Mai Assignment</h1>
     </div>
     <div class="col-md-12 col-lg-6">
-        <img src="static/images/book-covers/changmai.jpg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
-        <img src="static/images/book-covers/changmai-back.jpeg" class="img-fluid book-images"
-            alt="The Peccavi Plot - Book Cover" />
+        <img id="myImg3" src="static/images/book-covers/changmai.jpg" class="img-fluid book-images"
+            alt="The Chiang Mai Assignment" />
+        <img id="myImg4" src="static/images/book-covers/changmai-back.jpeg" class="img-fluid book-images"
+            alt="The Chiang Mai Assignment" />
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
     </div>
     <div class="col-md-12 col-lg-6 my-auto ml-auto">
         <p>When MI6 offer to help Customs trap an international drugs smuggler all is not what it seems… In his
@@ -42,5 +50,11 @@
         </div>
     </div>
 </div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/modal-book2.js') }}"></script>
 
 {% endblock %}
