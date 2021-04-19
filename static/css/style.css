@@ -41,8 +41,8 @@ html {
     background: rgb(128, 128, 128, 1);
 }
 
-.book-bg {
-    background-color: rgb(33, 211, 211, 1);
+.book-catalogue {
+    background-color: rgb(255, 199, 0, 1);
 }
 
 #book-scroll-title {
@@ -52,7 +52,7 @@ html {
 /*--Images--*/
 
 .book-images {
-    width: 10%;
+    width: 40%;
 }
 
 /*--Footer--*/
