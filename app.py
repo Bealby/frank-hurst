@@ -27,7 +27,7 @@ def about():
 # Function to load 'About' page as default
 
 @app.route('/books')
-def bookd():
+def books():
     return render_template("books.html")
 
 
