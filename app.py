@@ -24,11 +24,18 @@ def about():
     return render_template("about.html")
 
 
-# Function to load 'About' page as default
+# Function to load 'Books' page as default
 
 @app.route('/books')
 def books():
     return render_template("books.html")
+
+
+# Function to load 'Gallery' page as default
+
+@app.route('/gallery')
+def gallery():
+    return render_template("gallery.html")
 
 
 # IP and PORT
