@@ -249,6 +249,23 @@ html {
     }
 }
 
+/*--Links--*/
+
+.amazon-btn {
+    background-color: rgb(240, 193, 75, 1) !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(0, 0, 0, 1) !important;
+    font-weight: 900 !important;
+    font-size: 1.2rem !important;
+    padding: 0.8rem 1.8rem 0.8rem 1.8rem !important;
+    text-decoration: none !important;
+    border-radius: 1rem;
+}
+
+.amazon-btn:hover {
+    background-color: rgb(240, 193, 75, 0.6) !important;
+}
+
 
 /*--Images--*/
 
@@ -278,4 +295,13 @@ html {
 
 #wrapper {
     padding-bottom: 8rem;
+}
+
+/* MEDIA QURIES */
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
 }
