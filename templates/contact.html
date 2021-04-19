@@ -7,5 +7,42 @@
         <h1 class="text-center pt-4">Contact</h1>
     </div>
 </div>
+<div class="row mt-5 mb-5">
+    <div class="col-12 mt-4 mb-5 contact-form">
+        <div class="col-12 contact-border contact-field-margin pt-4 pb-4">
+            <p class="text-center section-text-contact text-muted mt-2 pb-2">For press enquiries of further information,
+                please contact me</p>
+            <form onsubmit="return sendMail(this);" class="form-fields" id="myForm">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" name="name" class="form-control mt-3" id="fullname" placeholder="Name"
+                            required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <input type="email" name="emailaddress" class="form-control mt-3" id="emailaddress"
+                            placeholder="Email" required />
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <textarea rows="5" name="comment" class="form-control mt-3" id="comment" placeholder="Comment"
+                            required></textarea>
+                    </div>
+                </div>
+                <div class="container pt-3">
+                    <div class="row">
+                        <div class="col-10 offset-1 text-center">
+                            <button type="submit"
+                                class="btn btn-font-send text-center default-button hover-overlay-text"><i
+                                    class="fas fa-paper-plane"></i>&ensp;SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
