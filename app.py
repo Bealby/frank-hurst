@@ -17,15 +17,21 @@ def home():
     return render_template("index.html")
 
 
-# Function to load 'Home' page as default
+# Function to load 'About' page as default
 
 @app.route('/about')
 def about():
     return render_template("about.html")
 
 
-# IP and PORT
+# Function to load 'About' page as default
 
+@app.route('/books')
+def bookd():
+    return render_template("books.html")
+
+
+# IP and PORT
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
