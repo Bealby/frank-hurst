@@ -38,6 +38,13 @@ def gallery():
     return render_template("gallery.html")
 
 
+# Function to load 'Gallery' page as default
+
+@app.route('/news')
+def news():
+    return render_template("news.html")
+
+
 # IP and PORT
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
