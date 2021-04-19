@@ -55,6 +55,16 @@ html {
     width: 40%;
 }
 
+/*---Block Dividers---*/
+
+.block-divider {
+    height: 1px;
+    border: 0;
+    background-color: rgb(128, 128, 128, 1);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
 /*--Footer--*/
 
 .footer {
