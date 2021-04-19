@@ -78,14 +78,3 @@ html {
 .copyright-text {
     margin-bottom: 0.5rem;
 }
-
-/*--Media Queries--*/
-
-
-/*---Reduces width and padding in <form> in contact.html for desktop. For smaller devices it resorts back to 100% width and 0 padding---*/
-
-@media(min-width:768px) {
-    .navbar-adjust {
-        background-color: rgb(255, 255, 255, 1)
-    }
-}
