@@ -37,6 +37,12 @@ def book1():
     return render_template("book1.html")
 
 
+# Function to load 'Book2 - The Chiang Mai Assignment'
+@app.route('/book2')
+def book2():
+    return render_template("book2.html")
+
+
 # Function to load 'Gallery'
 
 @app.route('/gallery')
