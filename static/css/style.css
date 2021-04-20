@@ -16,7 +16,7 @@ html {
     color: rgb(255, 199, 0, 1);
 }
 
-.book-scroll-font {
+.book-scroll-title {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
@@ -95,7 +95,7 @@ html {
     background-color: rgb(255, 199, 0, 1);
 }
 
-#book-scroll-title {
+#book-scroll-header {
     font-family: 'Lato', sans-serif;
     color: rgb(255, 199, 0, 1);
 }
