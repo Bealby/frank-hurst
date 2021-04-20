@@ -437,11 +437,11 @@ html {
 
 @media(min-width:1199px) {
     .read-more {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
-/*---Increase in font-size for read-me link for better read for mobile---*/
+/*---Increase font size for book scroll title for better read for sm---*/
 
 @media(min-width:1199px) {
     .book-scroll-title {
