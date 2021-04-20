@@ -332,7 +332,7 @@ html {
     text-decoration: none !important;
     background: rgb(128, 128, 128, 1);
     color: rgb(255, 199, 0, 1);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -431,5 +431,13 @@ html {
     .book-scroll-margins-2 {
         margin-top: 1.8rem;
         margin-bottom: 1.2rem;
+    }
+}
+
+/*---Increase in font-size for read-me link for better read for mobile---*/
+
+@media(min-width:1199px) {
+    .read-more {
+        font-size: 0.8rem;
     }
 }
