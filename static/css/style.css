@@ -19,9 +19,8 @@ html {
 .book-scroll-title {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
-
 
 /*--Margins--*/
 
@@ -439,5 +438,15 @@ html {
 @media(min-width:1199px) {
     .read-more {
         font-size: 0.8rem;
+    }
+}
+
+/*---Increase in font-size for read-me link for better read for mobile---*/
+
+@media(min-width:1199px) {
+    .book-scroll-title {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 1.2rem;
     }
 }
