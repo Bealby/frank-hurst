@@ -7,11 +7,19 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+/*--Fonts--*/
+
 .page-header {
     font-family: 'Zen Dots', cursive;
     font-weight: 400;
     font-size: 2rem;
     color: rgb(255, 199, 0, 1);
+}
+
+.book-scroll-font {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 /*--Navbar--*/
@@ -298,7 +306,7 @@ html {
 
 .read-more {
     border: 0.1rem solid;
-    border-color: rgb(0, 0, 0, 1);
+    border-color: rgb(128, 128, 128, 1);
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     padding-top: 0.4rem;
@@ -306,8 +314,14 @@ html {
     text-decoration: none !important;
     background: rgb(128, 128, 128, 1);
     color: rgb(255, 199, 0, 1);
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
+.read-more:hover {
+    background: rgb(255, 199, 0, 1);
+    color: rgb(128, 128, 128, 1);
+}
 
 /*--Images--*/
 
