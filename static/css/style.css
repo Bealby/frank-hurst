@@ -326,7 +326,7 @@ html {
 /*--Images--*/
 
 .book-images {
-    max-width: 30%;
+    max-width: 45%;
 }
 
 .lr-price-pub {
@@ -387,5 +387,13 @@ html {
         font-family: 'Palanquin', sans-serif;
         font-weight: 500;
         font-size: 1.4rem;
+    }
+}
+
+/*---Reduce size of book scroll images for md and sm devices. For better (smaller) viewing---*/
+
+@media(min-width:767px) {
+    .book-images {
+        max-width: 35%;
     }
 }
