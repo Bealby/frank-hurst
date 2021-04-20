@@ -326,7 +326,7 @@ html {
 /*--Images--*/
 
 .book-images {
-    width: 40%;
+    max-width: 30%;
 }
 
 .lr-price-pub {
