@@ -22,6 +22,24 @@ html {
     font-size: 1.2rem;
 }
 
+
+/*--Margins--*/
+
+.book-scroll-margins-1 {
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.book-scroll-margins-2 {
+    margin-top: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.book-scroll-margins-34 {
+    margin-top: 3.5rem;
+    margin-bottom: 1.2rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -395,5 +413,23 @@ html {
 @media(min-width:767px) {
     .book-images {
         max-width: 35%;
+    }
+}
+
+/*---Margin top increase for better spacing for md--*/
+
+@media(min-width:1199px) {
+    .book-scroll-margins-34 {
+        margin-top: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+}
+
+/*---Margin top increase for better spacing for sm---*/
+
+@media(min-width:767px) {
+    .book-scroll-margins-2 {
+        margin-top: 1.8rem;
+        margin-bottom: 1.2rem;
     }
 }
