@@ -74,7 +74,6 @@ html {
     color: rgb(255, 199, 0, 1);
 }
 
-
 /*--Contact Form--*/
 
 .contact-border {
@@ -295,6 +294,18 @@ html {
 
 .amazon-btn:hover {
     background-color: rgb(240, 193, 75, 0.6) !important;
+}
+
+.read-more {
+    border: 0.1rem solid;
+    border-color: rgb(0, 0, 0, 1);
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    text-decoration: none !important;
+    background: rgb(128, 128, 128, 1);
+    color: rgb(255, 199, 0, 1);
 }
 
 
