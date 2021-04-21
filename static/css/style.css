@@ -12,7 +12,7 @@ html {
 .page-header {
     font-family: 'Zen Dots', cursive;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: rgb(255, 199, 0, 1);
 }
 
@@ -460,10 +460,18 @@ html {
 }
 
 
-/*---Increase font size for book scroll title for better read for sm---*/
+/*---Margin bottom for book image for better spacing in md/sm---*/
 
 @media(min-width:991px) {
     .book-mb {
         margin-bottom: 0rem;
+    }
+}
+
+/*---Pge Header reduce font for better reading/ viewing on md/sm---*/
+
+@media(min-width:991px) {
+    .page-header {
+        font-size: 2rem;
     }
 }
