@@ -57,6 +57,10 @@ html {
     margin-bottom: 0rem;
 }
 
+.margin-about-section4 {
+    margin-bottom: 6rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -365,7 +369,7 @@ html {
 }
 
 .about-book-images {
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .lr-price-pub {
@@ -518,5 +522,13 @@ html {
 @media(min-width:991px) {
     .margin-about-section3 {
         margin-bottom: 6rem;
+    }
+}
+
+/*---Increase image size for smaller devices for better viewing---*/
+
+@media(min-width:767px) {
+    .about-book-images {
+        max-width: 70%;
     }
 }
