@@ -119,6 +119,11 @@ html {
 #book-scroll-header {
     font-family: 'Lato', sans-serif;
     color: rgb(255, 199, 0, 1);
+    font-size: 1.7rem;
+}
+
+.book-scroll-header-padding {
+    padding-top: 0.5rem;
 }
 
 /*--Contact Form--*/
@@ -372,6 +377,10 @@ html {
     max-width: 90%;
 }
 
+.index-book-image {
+    max-width: 60%;
+}
+
 .lr-price-pub {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
@@ -530,5 +539,29 @@ html {
 @media(min-width:767px) {
     .about-book-images {
         max-width: 70%;
+    }
+}
+
+/*---Decrease font-size got "Book" title for better viewing on mb---*/
+
+@media(min-width:767px) {
+    #book-scroll-header {
+        font-size: 2rem;
+    }
+}
+
+/*---Book box padding-top for be positoning for mb---*/
+
+@media(min-width:767px) {
+    .book-scroll-header-padding {
+        padding-top: 0.25rem;
+    }
+}
+
+/*---Increase image size for smaller devices for better viewing---*/
+
+@media(min-width:767px) {
+    .index-book-image {
+        max-width: 40%;
     }
 }
