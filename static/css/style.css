@@ -39,6 +39,10 @@ html {
     margin-bottom: 1.2rem;
 }
 
+.book-mb {
+    margin-bottom: 3rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -402,7 +406,7 @@ html {
 
 /*---Reduce nav font for better fitting for medium devices---*/
 
-@media(min-width:992px) {
+@media(min-width:991px) {
     .navbar-bg {
         background: darkgrey;
         font-family: 'Palanquin', sans-serif;
@@ -452,5 +456,14 @@ html {
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         font-size: 1.2rem;
+    }
+}
+
+
+/*---Increase font size for book scroll title for better read for sm---*/
+
+@media(min-width:991px) {
+    .book-mb {
+        margin-bottom: 0rem;
     }
 }
