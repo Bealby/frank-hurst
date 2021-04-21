@@ -43,6 +43,20 @@ html {
     margin-bottom: 3rem;
 }
 
+.margin-about-section1 {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.margin-about-section2 {
+    /*--1st Para--*/
+    margin-bottom: 3rem;
+}
+
+.margin-about-section3 {
+    margin-bottom: 0rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -477,5 +491,32 @@ html {
 @media(min-width:991px) {
     .page-header {
         font-size: 2rem;
+    }
+}
+
+/*---Margin top/ bottom for 'About' section for better viewing for md/sm---*/
+
+@media(min-width:991px) {
+    .margin-about-section1 {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+
+/*---Margin top/ bottom for 'About' section for better viewing for md/sm (1st Para)---*/
+
+@media(min-width:991px) {
+    .margin-about-section2 {
+        /*--1st Para--*/
+        margin-bottom: 0rem;
+    }
+}
+
+/*---Margin bottom for 'About' section for better viewing for md/sm---*/
+
+@media(min-width:991px) {
+    .margin-about-section3 {
+        margin-bottom: 6rem;
     }
 }
