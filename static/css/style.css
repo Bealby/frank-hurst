@@ -26,7 +26,7 @@ html {
     font-size: 1.4rem;
 }
 
-/*--Margins--*/
+/*--Margins/ Padding--*/
 
 .book-scroll-margins-1 {
     margin-top: 1.8rem;
@@ -67,6 +67,14 @@ html {
 
 .amazon-margin {
     margin-top: 2.5rem;
+}
+
+.book-pr {
+    padding-right: 0rem;
+}
+
+.book-pl {
+    padding-left: 0rem;
 }
 
 /*--Navbar--*/
@@ -592,5 +600,21 @@ html {
 @media(min-width:767px) {
     .index-book-image {
         max-width: 40%;
+    }
+}
+
+/*---Padding for md/ lg for better positioning and reading---*/
+
+@media(min-width:767px) {
+    .book-pr {
+        padding-right: 3rem;
+    }
+}
+
+/*---Padding for md/ lg for better positioning and reading---*/
+
+@media(min-width:767px) {
+    .book-pl {
+        padding-left: 3rem;
     }
 }
