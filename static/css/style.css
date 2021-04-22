@@ -17,7 +17,7 @@ html {
     font-family: 'Zen Dots', cursive;
     font-weight: 400;
     font-size: 1.7rem;
-    color: rgb(255, 199, 0, 1);
+    color: rgb(255, 184, 68, 1);
 }
 
 .book-scroll-title {
@@ -79,7 +79,7 @@ html {
 }
 
 .nav-menu a {
-    color: rgb(255, 199, 0, 1);
+    color: rgb(255, 184, 68, 1);
 }
 
 .nav-menu a:hover {
@@ -120,7 +120,7 @@ html {
 
 #book-scroll-header {
     font-family: 'Lato', sans-serif;
-    color: rgb(255, 199, 0, 1);
+    color: rgb(255, 184, 68, 1);
     font-size: 1.7rem;
 }
 
@@ -359,13 +359,13 @@ html {
     padding-bottom: 0.4rem;
     text-decoration: none !important;
     background: rgb(128, 128, 128, 1);
-    color: rgb(255, 199, 0, 1);
+    color: rgb(255, 184, 68, 1);
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .read-more:hover {
-    background: rgb(255, 199, 0, 1);
+    background: rgb(255, 184, 68, 1);
     color: rgb(128, 128, 128, 1);
 }
 
