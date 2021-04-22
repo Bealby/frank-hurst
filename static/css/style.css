@@ -8,7 +8,7 @@ html {
 }
 
 .ladies-bg {
-    background: url("static/images/navbar/header-bg.png");
+    background: rgb(128, 128, 128, 1);
 }
 
 /*--Fonts--*/
