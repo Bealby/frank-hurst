@@ -7,6 +7,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.ladies-bg {
+    background: url("static/images/navbar/header-bg.png");
+}
+
 /*--Fonts--*/
 
 .page-header {
@@ -90,12 +94,6 @@ html {
 
 .custom-toggler .navbar-toggler {
     border-color: rgb(255, 199, 0, 0.2);
-}
-
-/*--Header--*/
-
-.header-image {
-    background: rgb(128, 128, 128, 1);
 }
 
 /*--Gradient - Title--*/
