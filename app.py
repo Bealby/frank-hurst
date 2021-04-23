@@ -49,6 +49,12 @@ def book3():
     return render_template("book3.html")
 
 
+# Function to load 'Book3 - The Peccavi Plot'
+@app.route('/book4')
+def book4():
+    return render_template("book4.html")
+
+
 # Function to load 'Gallery'
 
 @app.route('/gallery')
