@@ -83,6 +83,13 @@ def gallerySunset():
     return render_template("gallery-sunsets.html")
 
 
+# Function to load 'Gallery-Farms'
+
+@app.route('/galleryFarm')
+def galleryFarm():
+    return render_template("gallery-farms.html")
+
+
 # Function to load 'News'
 
 @app.route('/news')
