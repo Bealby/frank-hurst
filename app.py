@@ -62,11 +62,18 @@ def gallery():
     return render_template("gallery.html")
 
 
-# Function to load 'Gallery'
+# Function to load 'Gallery-Temples & Tonsures'
 
 @app.route('/galleryTemples')
 def galleryTemples():
     return render_template("gallery-temples.html")
+
+
+# Function to load 'Gallery-Mekong Hunger'
+
+@app.route('/galleryMekong')
+def galleryMekong():
+    return render_template("gallery-mekong.html")
 
 
 # Function to load 'News'
