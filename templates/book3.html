@@ -10,14 +10,17 @@
     </div>
 </div>
 
-
 <div class="container">
-    <div class="row no-gutters mt-5">
-        <div class="col-md-12 col-lg-6">
-            <img id="myImg5" src="static/images/book-covers/mekong-front.png" class="img-fluid book-images"
-                alt="The Chiang Mai Assignment" />
-            <img id="myImg6" src="static/images/book-covers/mekong-back.png" class="img-fluid book-images"
-                alt="The Chiang Mai Assignment" />
+    <div class="row margin-about-section1">
+        <h2 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">Mekong Dragon</h2>
+        <div class="col-md-12 col-lg-6 text-center my-auto">
+            <img id="myImg" src="static/images/book-covers/mekong-front.png"
+                class="img-fluid book-images image-shadow book-mb mr-1" alt="The Chiang Mai Assignment - 
+                Book Cover Front" />
+
+            <img id="myImg2" src="static/images/book-covers/mekong-back.png"
+                class="img-fluid book-images image-shadow book-mb ml-1"
+                alt="The Chiang Mai Assignment - Book Cover Back" />
 
             <!-- Modal -->
             <div id="myModal" class="modal">
@@ -25,29 +28,24 @@
                 <img class="modal-content" id="img01">
                 <div id="caption"></div>
             </div>
-
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto">
-            <h2 class="pt-4">Mekong Dragon</h2>
-            <p>When the hunter becomes the hunted… When intelligence officer Mike Rawlin becomes the assassination
-                target of
-                an international drugs smuggler his world descends into chaos … In the much-anticipated final story of
-                the
-                Golden Triangle Trilogy, Frank Hurst provides another spell-binding trip into the world of international
-                crime and the steamy jungles of South East Asia. Brimming with secrets, romance, rivalry and deception,
-                this
-                is an epic story in its own right.
+            <h2 class="text-left pt-4 mb-3 text-muted d-none d-lg-block">Mekong Dragon</h2>
+            <p class="text-muted">When the hunter becomes the hunted… When intelligence officer Mike Rawlin becomes the
+                assassination target of an international drugs smuggler his world descends into chaos … In the
+                much-anticipated final story of the Golden Triangle Trilogy, Frank Hurst provides another spell-binding
+                trip into the world of international crime and the steamy jungles of South East Asia. Brimming with
+                secrets, romance, rivalry and deception, this is an epic story in its own right.
             </p>
-            <a href="https://www.amazon.co.uk/gp/product/1641532599" class="amazon-btn" target="_blank">
-                <i class="fab fa-amazon"></i>&ensp;&ensp;Buy Amazon</a>
         </div>
     </div>
-    <div class="row no-gutters mb-5">
+
+    <div class="row mb-5 text-muted">
         <div class="col-12">
-            <h1 class="text-left mt-5 pt-4">Reviews</h1>
+            <h2 class="text-left mt-3">REVIEWS</h2>
         </div>
-        <div class="col-6">
-            <h3 class="text-left pt-4">Tense absorbing read.</h3>
+        <div class="col-sm-12 col-md-6 book-pr">
+            <h4 class="text-left pt-4">Tense absorbing read.</h4>
             <p>
                 <i>That was some saga with a tense nail-biting conclusion. Enjoyable as a individual read but I do
                     recommend initially reading the previous two to complete the trilogy. I certainly got a sense of
@@ -57,8 +55,8 @@
                     country he obviously knows well.</i>
             </p>
         </div>
-        <div class="col-6">
-            <h3 class="text-left pt-4">Great book to keep you interested</h3>
+        <div class="col-sm-12 col-md-6 book-pl">
+            <h4 class="text-left pt-4">Great book to keep you interested</h4>
             <p>
                 <i>Having read the previous two books in this series i was keen to read Mekong Dragon. Well i was
                     not
@@ -70,10 +68,11 @@
     </div>
 </div>
 
+
 {% endblock %}
 
 {% block scripts %}
 
-<script src="{{ url_for('static', filename='js/modal-book3.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 
 {% endblock %}
