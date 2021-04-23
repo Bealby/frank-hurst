@@ -11,12 +11,14 @@
 </div>
 
 <div class="container">
-    <div class="row no-gutters mt-5">
-        <div class="col-md-12 col-lg-6">
-            <img id="myImg3" src="static/images/book-covers/changmai-front.png" class="img-fluid book-images"
-                alt="The Chiang Mai Assignment" />
-            <img id="myImg4" src="static/images/book-covers/changmai-back.png" class="img-fluid book-images"
-                alt="The Chiang Mai Assignment" />
+    <div class="row mt-5 mb-3">
+        <h2 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">The Chiang Mai Assignment</h2>
+        <div class="col-md-12 col-lg-6 text-center my-auto">
+            <img id="myImg" src="static/images/book-covers/changmai-front.png"
+                class="img-fluid book-images image-shadow book-mb mr-1" alt="The Postmistress of Nong Khai" />
+
+            <img id="myImg2" src="static/images/book-covers/changmai-back.png"
+                class="img-fluid book-images image-shadow book-mb ml-1" alt="The Postmistress of Nong Khai" />
 
             <!-- Modal -->
             <div id="myModal" class="modal">
@@ -24,27 +26,23 @@
                 <img class="modal-content" id="img01">
                 <div id="caption"></div>
             </div>
-
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto">
-            <h2 class="pt-4">The Chiang Mai Assignment</h2>
-            <p>When MI6 offer to help Customs trap an international drugs smuggler all is not what it seems… In his
-                long-awaited sequel to the acclaimed The Postmistress of Nong Khai, Frank Hurst takes us on an
-                exhilarating
-                and fascinating journey through the dangerous opium jungles of the Golden Triangle and the corridors of
-                power in London where deception and conspiracy loom large at every turn.
+            <h2 class="text-left pt-4 mb-3 text-muted d-none d-lg-block">The Chiang Mai Assignment</h2>
+            <p class="text-muted">When MI6 offer to help Customs trap an international drugs smuggler all is not what it
+                seems… In his long-awaited sequel to the acclaimed The Postmistress of Nong Khai, Frank Hurst takes us
+                on an exhilarating and fascinating journey through the dangerous opium jungles of the Golden Triangle
+                and the corridors of power in London where deception and conspiracy loom large at every turn.
             </p>
-            <a href="https://www.amazon.co.uk/Chiang-Mai-Assignment-Frank-Hurst/dp/1641530251/" class="amazon-btn"
-                target="_blank">
-                <i class="fab fa-amazon"></i>&ensp;&ensp;Buy Amazon</a>
         </div>
     </div>
-    <div class="row no-gutters mb-5">
+
+    <div class="row no-gutters mb-5 text-muted">
         <div class="col-12">
-            <h1 class="text-left mt-5 pt-4">Reviews</h1>
+            <h2 class="text-left mt-5">REVIEWS</h2>
         </div>
-        <div class="col-6">
-            <h3 class="text-left pt-4">Couldn’t put it down</h3>
+        <div class="col-sm-12 col-md-6 book-pr">
+            <h4 class="text-left pt-4">Couldn’t put it down</h4>
             <p>
                 <i>Thank you Mr Hurst for this truly enjoyable book. Gave me a fascinating insight into a dangerous
                     world. It felt very authentic and in the end I couldn’t put the book down. There are some great
@@ -52,8 +50,8 @@
                     more!</i>
             </p>
         </div>
-        <div class="col-6">
-            <h3 class="text-left pt-4">Fabulous sequel</h3>
+        <div class="col-sm-12 col-md-6 book-pl">
+            <h4 class="text-left pt-4">Fabulous sequel</h4>
             <p>
                 <i>The first book in this trilogy sets the scene and this is a wonderful continuation of the story!
                     Second book has a better pace than the first, with interesting character developments. Who knows
@@ -63,10 +61,11 @@
     </div>
 </div>
 
+
 {% endblock %}
 
 {% block scripts %}
 
-<script src="{{ url_for('static', filename='js/modal-book2.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 
 {% endblock %}
