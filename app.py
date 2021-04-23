@@ -76,6 +76,13 @@ def galleryMekong():
     return render_template("gallery-mekong.html")
 
 
+# Function to load 'Gallery-Siamese Sunsets'
+
+@app.route('/gallerySunset')
+def gallerySunset():
+    return render_template("gallery-sunsets.html")
+
+
 # Function to load 'News'
 
 @app.route('/news')
