@@ -52,6 +52,11 @@ html {
     margin-bottom: 3rem;
 }
 
+.margin-news-section1 {
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+}
+
 .margin-about-section2 {
     /*--1st Para--*/
     /*--Used for news.html also--*/
@@ -563,6 +568,14 @@ html {
     }
 }
 
+/*---Margin top/ bottom for 'News' feed for better viewing for md/sm---*/
+
+@media(min-width:991px) {
+    .margin-news-section1 {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+}
 
 /*---Margin top/ bottom for 'About' section for better viewing for md/sm (1st Para)---*/
 
