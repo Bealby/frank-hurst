@@ -1,20 +1,23 @@
 // Book 1 - The Postmistress of Nong Khai
 
+function getElementsById(ids) {
+    var idList = ids.split(" ");
+    var results = [],
+        item;
+    for (var i = 0; i < idList.length; i++) {
+        item = document.getElementById(idList[i]);
+        if (item) {
+            results.push(item);
+        }
+    }
+    return (results);
+}
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg2");
+var img = document.getElementsById("myImg myImg2"));
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function () {
