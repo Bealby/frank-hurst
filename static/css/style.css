@@ -429,6 +429,10 @@ html {
     max-width: 60%;
 }
 
+.gallery-categories {
+    max-width: 40%;
+}
+
 .lr-price-pub {
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
