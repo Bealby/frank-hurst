@@ -437,15 +437,6 @@ html {
     box-shadow: 0rem 0rem 1.5rem 0rem rgb(0, 0, 0, 1);
 }
 
-.zoom:hover {
-    -ms-transform: scale(2);
-    /* IE 9 */
-    -webkit-transform: scale(2);
-    /* Safari 3-8 */
-    transform: scale(2);
-    margin-right: 3rem;
-}
-
 /*-----Font Awesome Icons-----*/
 
 .fa-twitter {
