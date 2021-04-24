@@ -92,6 +92,21 @@ html {
     padding-bottom: 5rem;
 }
 
+.temples-padding-1 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.sunsets-padding-2 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.farms-padding-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -675,5 +690,33 @@ html {
 @media(min-width:767px) {
     .gallery-categories {
         max-width: 50%;
+    }
+}
+
+
+/*---Padding reduction for temples sections for better postioning on lg/md"---*/
+
+@media(min-width:767px) {
+    .temples-padding-1 {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+/*---Padding reduction for sunsets sections for better postioning on lg/md"---*/
+
+@media(min-width:767px) {
+    .sunsets-padding-2 {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+}
+
+/*---Padding reduction for farms sections for better postioning on lg/md"---*/
+
+@media(min-width:767px) {
+    .farms-padding-3 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 }
