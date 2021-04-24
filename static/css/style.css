@@ -89,7 +89,7 @@ html {
 }
 
 .gallery-padding {
-    padding-bottom: 7rem;
+    padding-bottom: 5rem;
 }
 
 /*--Navbar--*/
@@ -434,7 +434,7 @@ html {
 }
 
 .gallery-categories {
-    max-width: 40%;
+    max-width: 60%;
 }
 
 .lr-price-pub {
@@ -677,5 +677,13 @@ html {
     .news-image-pr {
         padding-right: 1rem;
         text-align: left;
+    }
+}
+
+/*---Smaller image size in new.html for beter viewing on mb---*/
+
+@media(min-width:767px) {
+    .gallery-categories {
+        max-width: 50%;
     }
 }
