@@ -99,6 +99,10 @@ html {
     padding-right: 0rem;
 }
 
+.copyright-website {
+    margin-top: 0rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -728,5 +732,13 @@ html {
 @media(min-width:991px) {
     #wrapper {
         padding-bottom: 6rem;
+    }
+}
+
+/*----MT adjustments for better positioning for mb/md/ lg devices--*/
+
+@media(min-width:991px) {
+    .copyright-website {
+        margin-top: 1.5rem;
     }
 }
