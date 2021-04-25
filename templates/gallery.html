@@ -10,9 +10,9 @@
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row margin-news-section1">
-        <div class="col-sm-12 col-md-6 col-lg-4 gallery-padding">
+        <div class="col-sm-12 col-md-6 gallery-padding">
             <div class="row">
                 <div class="col-12 text-center mb-3">
                     <h2 class="text-muted">Mekong Hunger</h2>
@@ -26,7 +26,8 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <p class="text-muted pl-5 pr-5 pb-2">Some images of the fantastic local food I encountered during my
+                    <p class="text-muted gallery-padding-p pb-2">Some images of the fantastic local food I encountered
+                        during my
                         travels along the mighty Mekong. There were a few beers taken too!</p>
                     <a href="{{url_for('galleryMekong')}}" class="read-more-news"><i
                             class="fas fa-chevron-right"></i>&ensp;<i class="fas fa-eye"></i>&ensp;Gallery&ensp;<i
@@ -34,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 gallery-padding">
+        <div class="col-sm-12 col-md-6 gallery-padding">
             <div class="row">
                 <div class="col-12 text-center mb-3">
                     <h2 class="text-muted">Temples & Tonsures</h2>
@@ -48,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-12 mb-3 text-center">
-                    <p class="text-muted temples-padding-1 pb-2">South East Asia is steeped in its spiritual past. A
+                    <p class="text-muted gallery-padding-p pb-2">South East Asia is steeped in its spiritual past. A
                         pervasive
                         sense
                         of
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 gallery-padding">
+        <div class="col-sm-12 col-md-6 gallery-padding">
             <div class="row">
                 <div class="col-12 text-center mb-3">
                     <h2 class="text-muted">Siamese Sunsets</h2>
@@ -74,7 +75,7 @@
                     </div>
                 </div>
                 <div class="col-12 text-center mb-4">
-                    <p class="text-muted sunsets-padding-2 pb-2">At the end of a long day my camera was always drawn
+                    <p class="text-muted gallery-padding-p pb-2">At the end of a long day my camera was always drawn
                         towards the
                         sunset.
                         The
@@ -87,34 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 offset-lg-2 gallery-padding">
-            <div class="row">
-                <div class="col-12 text-center mb-3">
-                    <h2 class="text-muted">Farm & Farmers</h2>
-                </div>
-                <div class="col-12 mb-4 mt-2 mt-2 text-center">
-                    <div class="hover-book">
-                        <a href="{{url_for('galleryFarm')}}">
-                            <img src="static/images/gallery/farms/farm50.png"
-                                class="img-fluid gallery-categories image-shadow" alt="Farmer">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 text-center">
-                    <p class="text-muted farms-padding-3 pb-2">The hospitality and welcome I received from the rural
-                        peoples
-                        who
-                        work the
-                        great tracts of land around the Mekong was both extraordinary and genuinely touching. I am
-                        so
-                        fortunate to count some as my friends.</p>
-                    <a href="{{url_for('galleryFarm')}}" class="read-more-news"><i
-                            class="fas fa-chevron-right"></i>&ensp;<i class="fas fa-eye"></i>&ensp;Gallery&ensp;<i
-                            class="fas fa-chevron-left"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 gallery-padding">
+        <div class="col-sm-12 col-md-6 gallery-padding text-center">
             <div class="row">
                 <div class="col-12 text-center mb-3">
                     <h2 class="text-muted">Fabulous Forests</h2>
@@ -128,11 +102,39 @@
                     </div>
                 </div>
                 <div class="col-12 text-center">
-                    <p class="text-muted pl-5 pr-5 pb-2">Cathedral-like in their magnificence, the forests of Northern
+                    <p class="text-muted gallery-padding-p pb-2">Cathedral-like in their magnificence, the forests of
+                        Northern
                         Thailand are
                         achingly beautiful, and remain havens for nature in its many forms. Simply wonderful places!
                     </p>
                     <a href="{{url_for('galleryForest')}}" class="read-more-news"><i
+                            class="fas fa-chevron-right"></i>&ensp;<i class="fas fa-eye"></i>&ensp;Gallery&ensp;<i
+                            class="fas fa-chevron-left"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 offset-md-3 gallery-padding">
+            <div class="row">
+                <div class="col-12 text-center mb-3">
+                    <h2 class="text-muted">Farm & Farmers</h2>
+                </div>
+                <div class="col-12 mb-4 mt-2 mt-2 text-center">
+                    <div class="hover-book">
+                        <a href="{{url_for('galleryFarm')}}">
+                            <img src="static/images/gallery/farms/farm50.png"
+                                class="img-fluid gallery-categories image-shadow" alt="Farmer">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p class="text-muted gallery-padding-p pb-2">The hospitality and welcome I received from the rural
+                        peoples
+                        who
+                        work the
+                        great tracts of land around the Mekong was both extraordinary and genuinely touching. I am
+                        so
+                        fortunate to count some as my friends.</p>
+                    <a href="{{url_for('galleryFarm')}}" class="read-more-news"><i
                             class="fas fa-chevron-right"></i>&ensp;<i class="fas fa-eye"></i>&ensp;Gallery&ensp;<i
                             class="fas fa-chevron-left"></i></a>
                 </div>
