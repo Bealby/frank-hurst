@@ -409,8 +409,13 @@ html {
 }
 
 .website a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: rgb(255, 255, 255, 1)
+}
+
+.website a:hover {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255, 1) !important;
 }
 
 /*--Images--*/
@@ -709,8 +714,6 @@ html {
         padding-right: 3rem;
     }
 }
-
-
 
 /*----Class footer height decrease for better postioning/ viewing for sm/md. --*/
 
