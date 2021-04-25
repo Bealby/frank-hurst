@@ -709,3 +709,21 @@ html {
         padding-right: 3rem;
     }
 }
+
+
+
+/*----Class footer height decrease for better postioning/ viewing for sm/md. --*/
+
+@media(min-width:991px) {
+    .footer {
+        height: 6rem;
+    }
+}
+
+/*----ID wrapper pt decrease for better postioning/ viewing for sm/md. --*/
+
+@media(min-width:991px) {
+    #wrapper {
+        padding-bottom: 6rem;
+    }
+}
