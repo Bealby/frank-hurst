@@ -26,6 +26,10 @@ html {
     font-size: 1.4rem;
 }
 
+.content-para p {
+    font-size: 1.2rem !important;
+}
+
 /*--Margins/ Padding--*/
 
 .book-scroll-margins-1 {
@@ -744,5 +748,14 @@ html {
 @media(min-width:991px) {
     .copyright-website {
         margin-top: 1.5rem;
+    }
+}
+
+
+/*----Increase font size for <p> content for sm/md for clearer reading--*/
+
+@media(min-width:991px) {
+    .content-para p {
+        font-size: 1rem !important;
     }
 }
