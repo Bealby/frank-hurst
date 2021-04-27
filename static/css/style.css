@@ -430,6 +430,11 @@ html {
     margin-top: 2rem;
 }
 
+.contact-links a {
+    text-decoration: none !important;
+    color: rgb(0, 0, 0, 1) !important;
+}
+
 /*--Images--*/
 
 .book-images {
