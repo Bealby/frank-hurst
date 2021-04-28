@@ -506,6 +506,23 @@ html {
     margin-bottom: 1px;
 }
 
+/*-----Page-Top-Scroll-Feature-----*/
+
+.page-top-button {
+    height: 2.625rem;
+    width: 2.625rem;
+    position: fixed;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    z-index: 1
+}
+
+.page-top-link {
+    cursor: pointer;
+    text-decoration: none !important;
+    z-index: 1
+}
+
 /*--Footer--*/
 
 .footer {
