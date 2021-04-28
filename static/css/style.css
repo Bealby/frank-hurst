@@ -434,6 +434,10 @@ html {
     color: rgb(108, 117, 125, 1) !important;
 }
 
+.gallery-back a {
+    color: rgb(108, 117, 125, 1)
+}
+
 /*--Images--*/
 
 .book-images {
