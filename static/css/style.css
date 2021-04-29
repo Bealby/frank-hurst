@@ -107,6 +107,11 @@ html {
     margin-top: 0rem;
 }
 
+.content-mb {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 /*--Navbar--*/
 
 .navbar-bg {
@@ -786,5 +791,14 @@ html {
 @media(min-width:991px) {
     .content-para p {
         font-size: 1rem !important;
+    }
+}
+
+/*---PL PR increase for <p> content for mb devices for better spacing/ Reading---*/
+
+@media(min-width:767px) {
+    .content-mb {
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 }
