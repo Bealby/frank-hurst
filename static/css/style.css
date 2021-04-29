@@ -110,6 +110,8 @@ html {
 .content-mb {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    text-align: left;
+
 }
 
 /*--Navbar--*/
@@ -800,5 +802,6 @@ html {
     .content-mb {
         padding-left: 0rem;
         padding-right: 0rem;
+        text-align: justify;
     }
 }
