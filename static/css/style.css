@@ -422,7 +422,7 @@ html {
 }
 
 .website a:hover {
-    text-decoration: none !important;
+    text-decoration: underline !important;
     color: rgb(255, 255, 255, 1) !important;
 }
 
