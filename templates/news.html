@@ -17,13 +17,22 @@
         <div class="col-sm-12 col-lg-4 news-image-pr margin-about-section2">
             <div class="row">
                 <div class="col-6">
-                    <img src="static/images/news/caroline-buchan.png" class="img-fluid image-shadow news-book-image"
+                    <img src="static/images/news/caroline-buchan.png"
+                        class="img-fluid image-shadow news-book-image myImg"
                         alt="Caroline Buchan, my great-grandmother circa 1880" />
                 </div>
                 <div class="col-6">
-                    <img src="static/images/news/henry-gough.png" class="img-fluid image-shadow news-book-image"
+                    <img src="static/images/news/henry-gough.png" class="img-fluid image-shadow news-book-image myImg"
                         alt="Henry Gough, my great-grandfather circa 1880 (with tints!)" />
                 </div>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
             </div>
         </div>
         <div class="col-sm-12 col-lg-8 text-muted">
@@ -398,6 +407,7 @@
 
 {% block scripts %}
 
+<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 
 {% endblock %}
