@@ -736,7 +736,7 @@ html {
 
 @media(min-width:767px) {
     .news-book-image {
-        max-width: 90%;
+        max-width: 100%;
     }
 }
 
@@ -834,8 +834,8 @@ html {
 
 @media(min-width:767px) {
     .content-news-title {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
         margin-bottom: 0rem !important;
     }
 }
