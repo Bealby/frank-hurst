@@ -438,6 +438,10 @@ html {
     color: rgb(255, 255, 255, 1);
 }
 
+.read-more-news-center {
+    text-align: center;
+}
+
 .website a {
     text-decoration: none !important;
     color: rgb(255, 255, 255, 1)
@@ -837,6 +841,14 @@ html {
         padding-left: 1rem !important;
         padding-right: 1rem !important;
         margin-bottom: 0rem !important;
+    }
+}
+
+/*---Read More link center for mb in news.html for better postioning and layout" ---*/
+
+@media(min-width:767px) {
+    .read-more-news-center {
+        text-align: left;
     }
 }
 
