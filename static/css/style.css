@@ -830,7 +830,7 @@ html {
     }
 }
 
-/*---PL PR increase for <p> content for mb devices for better spacing/ Reading. news.html---*/
+/*---PL PR MB increase for title for mb devices for better spacing/ Reading news.html---*/
 
 @media(min-width:767px) {
     .content-news-title {
