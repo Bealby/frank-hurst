@@ -388,7 +388,7 @@ html {
 .amazon-btn {
     background-color: rgb(240, 193, 75, 1) !important;
     font-family: 'Roboto', sans-serif !important;
-    color: rgb(0, 0, 0, 1) !important;
+    color: rgb(108, 117, 125, 1) !important;
     font-weight: 900 !important;
     font-size: 1.2rem !important;
     padding: 0.8rem 1.8rem 0.8rem 1.8rem !important;
@@ -511,7 +511,8 @@ html {
 }
 
 .fa-amazon {
-    color: rgb(1, 1, 1, 1);
+    color: rgb(108, 117, 125, 1);
+    border-color: rgb(108, 117, 125, 1);
 }
 
 /*---Block Dividers---*/
