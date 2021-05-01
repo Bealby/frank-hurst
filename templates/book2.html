@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <div class="container-fluid">
     <div class="row">
@@ -12,7 +10,7 @@
 
 <div class="container">
     <div class="row margin-about-section1">
-        <!---Header for sm/md--->
+        <!--Header for sm/md-->
         <h3 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">The Chiang Mai Assignment</h3>
         <div class="col-md-12 col-lg-6 text-center my-auto">
             <img src="static/images/book-covers/changmai-front.png"
@@ -26,18 +24,19 @@
             <!-- Modal -->
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <img class="modal-content" id="img01" />
                 <div id="caption"></div>
             </div>
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
-            <!---Header for lg--->
+            <!--Header for lg-->
             <h2 class="text-left pt-4 mb-3 text-muted d-none d-lg-block">The Chiang Mai Assignment</h2>
-            <p class="text-muted content-mb">When MI6 offer to help Customs trap an international drugs smuggler all is
-                not what it
-                seems… In his long-awaited sequel to the acclaimed The Postmistress of Nong Khai, Frank Hurst takes us
-                on an exhilarating and fascinating journey through the dangerous opium jungles of the Golden Triangle
-                and the corridors of power in London where deception and conspiracy loom large at every turn.
+            <p class="text-muted content-mb">
+                When MI6 offer to help Customs trap an international drugs smuggler all is not what it seems… In his
+                long-awaited sequel to the acclaimed The Postmistress of Nong Khai, Frank Hurst takes us on an
+                exhilarating and fascinating
+                journey through the dangerous opium jungles of the Golden Triangle and the corridors of power in London
+                where deception and conspiracy loom large at every turn.
             </p>
             <div class="text-center amazon-margin">
                 <a href="https://www.amazon.co.uk/Chiang-Mai-Assignment-Frank-Hurst/dp/1641530251/" class="amazon-btn"
@@ -48,30 +47,32 @@
 
     <div class="row mb-5 text-muted">
         <div class="col-12">
-            <!---Header for sm/md--->
+            <!--Header for sm/md-->
             <h3 class="text-left mt-3 d-lg-none content-mb">REVIEWS</h3>
-            <!---Header for lg--->
+            <!--Header for lg-->
             <h2 class="text-left mt-3 d-none d-lg-block">REVIEWS</h2>
         </div>
         <div class="col-sm-12 col-md-6 book-pr content-para">
             <h4 class="text-left pt-4 mb-3">Couldn’t put it down</h4>
             <p class="content-mb">
-                <i>Thank you Mr Hurst for this truly enjoyable book. Gave me a fascinating insight into a dangerous
+                <i>
+                    Thank you Mr Hurst for this truly enjoyable book. Gave me a fascinating insight into a dangerous
                     world. It felt very authentic and in the end I couldn’t put the book down. There are some great
-                    characters in the story too, which had such an unexpected twist that it has left me wanting
-                    more!</i>
+                    characters in the story
+                    too, which had such an unexpected twist that it has left me wanting more!
+                </i>
             </p>
         </div>
         <div class="col-sm-12 col-md-6 book-pl content-para">
             <h4 class="text-left pt-4 mb-3">Fabulous sequel</h4>
             <p class="content-mb">
-                <i>Initially an impulse buy this novel by Frank Hurst is totally engrossing and gives a vivid
-                    insight
-                    into the world of international drug smugglers and those whose job it is to catch them. This
-                    tale
-                    captures the essence of the chase, together with a highly charged love interest leaves you
-                    longing
-                    to pick up the sequel. Well done Mr Hurst.</i>
+                <i>
+                    Initially an impulse buy this novel by Frank Hurst is totally engrossing and gives a vivid insight
+                    into the world of international drug smugglers and those whose job it is to catch them. This tale
+                    captures the essence of
+                    the chase, together with a highly charged love interest leaves you longing to pick up the sequel.
+                    Well done Mr Hurst.
+                </i>
             </p>
         </div>
     </div>
@@ -82,13 +83,9 @@
             <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
         </a>
     </div>
-
 </div>
 
-
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
