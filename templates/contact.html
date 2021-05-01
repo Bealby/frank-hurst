@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <div class="container-fluid">
     <div class="row">
@@ -19,42 +17,45 @@
         </div>
         <div class="col-sm-12 col-md-6 my-auto text-muted contact-links">
             <div class="mb-5 content-mb">
-                <!---Header for sm/md--->
+                <!--Header for sm/md-->
                 <h3 class="text-left d-lg-none mb-3"><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;Frank Hurst
                 </h3>
-                <!---Header for lg--->
+                <!--Header for lg-->
                 <h2 class="text-left d-none d-lg-block mb-3"><i
-                        class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;Frank
-                    Hurst
-                </h2>
+                        class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;Frank Hurst</h2>
                 <p>For press enquiries of further information, please email:</p>
-                <p><a href="mailto:frankhurstbooks@outlook.com?"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;
-                        frankhurstbooks@outlook.com&nbsp;&nbsp;<i class="fas fa-chevron-left"></i>
+                <p>
+                    <a href="mailto:frankhurstbooks@outlook.com?">
+                        <i class="fas fa-chevron-right"></i>&nbsp;&nbsp; frankhurstbooks@outlook.com&nbsp;&nbsp;<i
+                            class="fas fa-chevron-left"></i>
                         <span class="sr-only">Email</span>
-                    </a></p>
+                    </a>
+                </p>
             </div>
             <div class="mb-5 content-mb">
-                <!---Header for sm/md--->
+                <!--Header for sm/md-->
                 <h3 class="text-left d-lg-none mb-3"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;&nbsp;Publishers
                 </h3>
-                <!---Header for lg--->
+                <!--Header for lg-->
                 <h2 class="text-left d-none d-lg-block mb-3"><i
-                        class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;Publishers
-                </h2>
-                <p><a href="https://www.lrpricepublications.com/" target="_blank"><i
-                            class="fas fa-chevron-right"></i>&nbsp;&nbsp;
-                        L. R. Price Publications&nbsp;&nbsp;<i class="fas fa-chevron-left"></i></a></p>
+                        class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;Publishers</h2>
+                <p>
+                    <a href="https://www.lrpricepublications.com/" target="_blank"><i
+                            class="fas fa-chevron-right"></i>&nbsp;&nbsp; L. R. Price Publications&nbsp;&nbsp;<i
+                            class="fas fa-chevron-left"></i></a>
+                </p>
             </div>
             <div class="content-mb">
-                <!---Header for sm/md--->
+                <!--Header for sm/md-->
                 <h3 class="text-left d-lg-none mb-3"><i class="fas fa-globe-europe"></i>&nbsp;&nbsp;&nbsp;&nbsp;Web
-                    Design
-                </h3>
-                <!---Header for lg--->
+                    Design</h3>
+                <!--Header for lg-->
                 <h2 class="text-left d-none d-lg-block mb-3"><i
                         class="fas fa-globe-europe"></i>&nbsp;&nbsp;&nbsp;&nbsp;Web Design</h2>
-                <p><a href="https://murraybealby.com" target="_blank"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;
-                        Murray Bealby&nbsp;&nbsp;<i class="fas fa-chevron-left"></i></a></p>
+                <p>
+                    <a href="https://murraybealby.com" target="_blank"><i class="fas fa-chevron-right"></i>&nbsp;&nbsp;
+                        Murray Bealby&nbsp;&nbsp;<i class="fas fa-chevron-left"></i></a>
+                </p>
             </div>
         </div>
     </div>
@@ -65,12 +66,9 @@
             <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
         </a>
     </div>
-
 </div>
 
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 
