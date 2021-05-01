@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <div class="container-fluid">
     <div class="row">
@@ -12,7 +10,7 @@
 
 <div class="container">
     <div class="row margin-about-section1">
-        <!---Header for sm/md--->
+        <!--Header for sm/md-->
         <h3 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">Mekong Dragon</h3>
         <div class="col-md-12 col-lg-6 text-center my-auto">
             <img src="static/images/book-covers/mekong-front.png"
@@ -26,19 +24,21 @@
             <!-- Modal -->
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <img class="modal-content" id="img01" />
                 <div id="caption"></div>
             </div>
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
-            <!---Header for lg--->
+            <!--Header for lg-->
             <h2 class="text-left pt-4 mb-3 text-muted d-none d-lg-block">Mekong Dragon</h2>
-            <p class="text-muted content-mb">When the hunter becomes the hunted… When intelligence officer Mike Rawlin
-                becomes the
-                assassination target of an international drugs smuggler his world descends into chaos … In the
-                much-anticipated final story of the Golden Triangle Trilogy, Frank Hurst provides another spell-binding
-                trip into the world of international crime and the steamy jungles of South East Asia. Brimming with
-                secrets, romance, rivalry and deception, this is an epic story in its own right.
+            <p class="text-muted content-mb">
+                When the hunter becomes the hunted… When intelligence officer Mike Rawlin becomes the assassination
+                target of an international drugs smuggler his world descends into chaos … In the much-anticipated final
+                story of the Golden
+                Triangle Trilogy, Frank Hurst provides another spell-binding trip into the world of international crime
+                and the steamy jungles of South East Asia. Brimming with secrets, romance, rivalry and deception, this
+                is an epic story
+                in its own right.
             </p>
             <div class="text-center amazon-margin">
                 <a href="https://www.amazon.co.uk/gp/product/1641532599" class="amazon-btn" target="_blank"> <i
@@ -49,30 +49,33 @@
 
     <div class="row mb-5 text-muted">
         <div class="col-12">
-            <!---Header for sm/md--->
+            <!--Header for sm/md-->
             <h3 class="text-left mt-3 d-lg-none content-mb">REVIEWS</h3>
-            <!---Header for lg--->
+            <!--Header for lg-->
             <h2 class="text-left mt-3 d-none d-lg-block">REVIEWS</h2>
         </div>
         <div class="col-sm-12 col-md-6 book-pr content-para">
             <h4 class="text-left pt-4 mb-3">Tense absorbing read.</h4>
             <p class="content-mb">
-                <i>That was some saga with a tense nail-biting conclusion. Enjoyable as a individual read but I do
-                    recommend initially reading the previous two to complete the trilogy. I certainly got a sense of
-                    all
-                    the different characters both good and evil and it opened my eyes to the nasty world of the drug
-                    trade. Thoroughly enjoyed the atmospheric drama, well portrayed in Frank Hurst's writing of a
-                    country he obviously knows well.</i>
+                <i>
+                    That was some saga with a tense nail-biting conclusion. Enjoyable as a individual read but I do
+                    recommend initially reading the previous two to complete the trilogy. I certainly got a sense of all
+                    the different
+                    characters both good and evil and it opened my eyes to the nasty world of the drug trade. Thoroughly
+                    enjoyed the atmospheric drama, well portrayed in Frank Hurst's writing of a country he obviously
+                    knows well.
+                </i>
             </p>
         </div>
         <div class="col-sm-12 col-md-6 book-pl content-para">
             <h4 class="text-left pt-4 mb-3">Great book to keep you interested</h4>
             <p class="content-mb">
-                <i>Having read the previous two books in this series i was keen to read Mekong Dragon. Well i was
-                    not
+                <i>
+                    Having read the previous two books in this series i was keen to read Mekong Dragon. Well i was not
                     disappointed the story continued from the previous books keeping me gripped all the way through.
-                    Frank Hurst has done a fantastic job with Mekong Dragon and will hopefully write some more
-                    books.</i>
+                    Frank Hurst has done a
+                    fantastic job with Mekong Dragon and will hopefully write some more books.
+                </i>
             </p>
         </div>
     </div>
@@ -83,13 +86,9 @@
             <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
         </a>
     </div>
-
 </div>
 
-
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
