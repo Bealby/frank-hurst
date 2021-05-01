@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <div class="container-fluid">
     <div class="row">
@@ -101,7 +99,7 @@
         <!-- Modal -->
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <img class="modal-content" id="img01" />
             <div id="caption"></div>
         </div>
     </div>
@@ -112,12 +110,9 @@
             <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
         </a>
     </div>
-
 </div>
 
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
