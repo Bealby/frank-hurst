@@ -1,6 +1,4 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <div class="container-fluid">
     <div class="row">
@@ -12,7 +10,7 @@
 
 <div class="container">
     <div class="row margin-about-section1">
-        <!---Header for sm/md--->
+        <!--Header for sm/md-->
         <h3 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none pl-1 pr-1">The Postmistress of Nong Khai</h3>
         <div class="col-md-12 col-lg-6 text-center my-auto">
             <img src="static/images/book-covers/postmistress-front.png"
@@ -24,20 +22,21 @@
             <!-- Modal -->
             <div id="myModal" class="modal">
                 <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
+                <img class="modal-content" id="img01" />
                 <div id="caption"></div>
             </div>
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
-            <!---Header for lg--->
+            <!--Header for lg-->
             <h2 class="text-left pt-4 mb-3 text-muted d-none d-lg-block">The Postmistress of Nong Khai</h2>
-            <p class="text-muted content-mb">Mike Rawlin, an ambitious Customs Intelligence officer, is posted to the
-                British
-                Embassy in Bangkok, where he is tasked with infiltrating a dangerous band of drug smugglers in the
-                infamous and remote Golden Triangle. Passion, deception and intrigue provide a heady mix in this
-                fast-paced crime thriller set in London and Thailand. A highly entertaining read, The Postmistress of
-                Nong Khai is full of fascinating and elusive characters and will appeal to readers who enjoy being kept
-                guessing until the very end.
+            <p class="text-muted content-mb">
+                Mike Rawlin, an ambitious Customs Intelligence officer, is posted to the British Embassy in Bangkok,
+                where he is tasked with infiltrating a dangerous band of drug smugglers in the infamous and remote
+                Golden Triangle.
+                Passion, deception and intrigue provide a heady mix in this fast-paced crime thriller set in London and
+                Thailand. A highly entertaining read, The Postmistress of Nong Khai is full of fascinating and elusive
+                characters and
+                will appeal to readers who enjoy being kept guessing until the very end.
             </p>
             <div class="text-center amazon-margin">
                 <a href="https://www.amazon.co.uk/Postmistress-Nong-Khai-Frank-Hurst/dp/1785890573/" class="amazon-btn"
@@ -48,31 +47,32 @@
 
     <div class="row mb-5 text-muted">
         <div class="col-12">
-            <!---Header for sm/md--->
+            <!--Header for sm/md-->
             <h3 class="text-left mt-3 d-lg-none content-mb">REVIEWS</h3>
-            <!---Header for lg--->
-            <h2 class=" text-left mt-3 d-none d-lg-block ">REVIEWS</h2>
+            <!--Header for lg-->
+            <h2 class="text-left mt-3 d-none d-lg-block">REVIEWS</h2>
         </div>
         <div class="col-sm-12 col-md-6 book-pr content-para">
             <h4 class="text-left pt-4 content-mb mb-3">Hugely Enjoyable</h4>
             <p class="content-mb">
-                <i>A sheer delight of a read. Intriguing plot with believable characters, locations you can smell
-                    and
-                    taste and a climactic finish which leaves you craving for more. A sequel is a must, as Mike
-                    Rawlin
-                    still has unfinished business.</i>
+                <i>
+                    A sheer delight of a read. Intriguing plot with believable characters, locations you can smell and
+                    taste and a climactic finish which leaves you craving for more. A sequel is a must, as Mike Rawlin
+                    still has unfinished
+                    business.
+                </i>
             </p>
         </div>
         <div class="col-sm-12 col-md-6 book-pl content-para">
             <h4 class="text-left pt-4 content-mb mb-3">Really Very Good Indeed</h4>
             <p class="content-mb">
-                <i>Initially an impulse buy this novel by Frank Hurst is totally engrossing and gives a vivid
-                    insight
-                    into the world of international drug smugglers and those whose job it is to catch them. This
-                    tale
-                    captures the essence of the chase, together with a highly charged love interest leaves you
-                    longing
-                    to pick up the sequel. Well done Mr Hurst.</i>
+                <i>
+                    Initially an impulse buy this novel by Frank Hurst is totally engrossing and gives a vivid insight
+                    into the world of international drug smugglers and those whose job it is to catch them. This tale
+                    captures the essence of
+                    the chase, together with a highly charged love interest leaves you longing to pick up the sequel.
+                    Well done Mr Hurst.
+                </i>
             </p>
         </div>
     </div>
@@ -83,13 +83,9 @@
             <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
         </a>
     </div>
-
 </div>
 
-
-{% endblock %}
-
-{% block scripts %}
+{% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
