@@ -130,6 +130,14 @@ html {
     margin-bottom: 2rem !important;
 }
 
+.book-spacing-a {
+    margin-right: 3rem;
+}
+
+.book-spacing-b {
+    margin-left: 3rem;
+}
+
 
 /*--Navbar--*/
 
@@ -919,5 +927,21 @@ html {
 @media(min-width:767px) {
     .news-mb {
         margin-bottom: 3rem;
+    }
+}
+
+/*---Book spacing mr for md/lg for better viewing---*/
+
+@media(min-width:767px) {
+    .book-spacing-a {
+        margin-right: 0.25rem;
+    }
+}
+
+/*---Book spacing ml for md/lg for better viewing---*/
+
+@media(min-width:767px) {
+    .book-spacing-b {
+        margin-left: 0.25rem;
     }
 }
