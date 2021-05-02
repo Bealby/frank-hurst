@@ -131,11 +131,11 @@ html {
 }
 
 .book-spacing-a {
-    margin-right: 3rem;
+    margin-right: 0.25rem;
 }
 
 .book-spacing-b {
-    margin-left: 3rem;
+    margin-left: 0.25rem;
 }
 
 
@@ -934,7 +934,7 @@ html {
 
 @media(min-width:767px) {
     .book-spacing-a {
-        margin-right: 0.25rem;
+        margin-right: 3rem;
     }
 }
 
@@ -942,6 +942,6 @@ html {
 
 @media(min-width:767px) {
     .book-spacing-b {
-        margin-left: 0.25rem;
+        margin-left: 3rem;
     }
 }
