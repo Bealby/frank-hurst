@@ -934,7 +934,7 @@ html {
 
 @media(min-width:767px) {
     .book-spacing-a {
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 }
 
@@ -942,6 +942,6 @@ html {
 
 @media(min-width:767px) {
     .book-spacing-b {
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 }
