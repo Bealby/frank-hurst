@@ -549,6 +549,16 @@ html {
     border-color: rgb(108, 117, 125, 1);
 }
 
+#text,
+#icon {
+    line-height: 50px;
+}
+
+#icon {
+    vertical-align: middle;
+    font-size: 25px;
+}
+
 
 /*---Block Dividers---*/
 
