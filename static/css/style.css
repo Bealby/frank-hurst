@@ -420,7 +420,7 @@ html {
 .amazon-btn {
     background-color: rgb(240, 193, 75, 1) !important;
     font-family: 'Roboto', sans-serif !important;
-    color: rgb(108, 117, 125, 1) !important;
+    color: rgb(0, 0, 0, 1) !important;
     font-weight: 900 !important;
     font-size: 1.2rem !important;
     padding: 0.8rem 1.8rem 0.8rem 1.8rem !important;
@@ -430,6 +430,21 @@ html {
 
 .amazon-btn:hover {
     background-color: rgb(240, 193, 75, 0.6) !important;
+}
+
+.mango-btn {
+    background-color: rgb(235, 132, 141, 1) !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(0, 0, 0, 1) !important;
+    font-weight: 900 !important;
+    font-size: 1.2rem !important;
+    padding: 0.8rem 1.2rem 0.8rem 1.2rem !important;
+    text-decoration: none !important;
+    border-radius: 1rem;
+}
+
+.mango-btn:hover {
+    background-color: rgb(235, 132, 141, 0.6) !important;
 }
 
 .read-more {
@@ -545,8 +560,7 @@ html {
 }
 
 .fa-amazon {
-    color: rgb(108, 117, 125, 1);
-    border-color: rgb(108, 117, 125, 1);
+    color: rgb(0, 0, 0, 1);
 }
 
 #text,
