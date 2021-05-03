@@ -559,6 +559,10 @@ html {
     font-size: 25px;
 }
 
+#amazon-color {
+    color: rgb(255, 255, 255, 1);
+}
+
 
 /*---Block Dividers---*/
 
