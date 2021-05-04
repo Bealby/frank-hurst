@@ -81,6 +81,14 @@ html {
     margin-top: 2.5rem;
 }
 
+.amazonbuy-align {
+    text-align: center;
+}
+
+.buy-align {
+    text-align: center;
+}
+
 .book-pr {
     padding-right: 1rem;
 }
@@ -971,5 +979,21 @@ html {
 @media(min-width:767px) {
     .book-spacing-b {
         margin-left: 2rem;
+    }
+}
+
+
+/*---Text align right for icon in lg and center for md/sm for better positioning---*/
+
+@media(min-width:767px) {
+    .amazonbuy-align {
+        text-align: right;
+    }
+}
+
+/*---Text align left for icon in lg and center for md/sm for better positioning---*/
+@media(min-width:767px) {
+    .buy-align {
+        text-align: left;
     }
 }
