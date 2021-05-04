@@ -278,11 +278,11 @@ html {
 
 /* Modal Content */
 .news-modal-content {
-    background-color: #fefefe;
+    background-color: rgb(255, 255, 255, 1);
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    border: 1px solid rgb(128, 128, 128, 1);
+    width: 95%;
 }
 
 /* The Close Button */
@@ -1052,5 +1052,17 @@ html {
 @media(min-width:767px) {
     .amazon-margin {
         margin-top: 2.5rem;
+    }
+}
+
+/*---Increase width of modal for better spacing and reading for mb---*/
+
+@media(min-width:767px) {
+    .news-modal-content {
+        background-color: rgb(255, 255, 255, 1);
+        margin: auto;
+        padding: 20px;
+        border: 1px solid rgb(128, 128, 128, 1);
+        width: 80%;
     }
 }
