@@ -48,8 +48,20 @@
                 The life of Henry Gough – A Victorian rag to riches tale of passion and courage.
             </p>
             <div class="read-more-news-center">
-                <a href="static/documentation/henry-gough-doc.docx" class="read-more-news" target="_blank"><i
-                        class="fas fa-chevron-right"></i>&ensp;READ MORE&ensp;<i class="fas fa-chevron-left"></i></a>
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn">Open Modal</button>
+
+                <!-- The Modal -->
+                <div id="newsModal" class="news-modal">
+
+                    <!-- Modal content -->
+                    <div class="news-modal-content">
+                        <span class="news-close">&times;</span>
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -548,6 +560,7 @@
 {% endblock %} {% block scripts %}
 
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal-news.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 
 {% endblock %}
