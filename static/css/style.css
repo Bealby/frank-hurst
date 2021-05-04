@@ -78,7 +78,7 @@ html {
 }
 
 .amazon-margin {
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 
 .amazonbuy-align {
@@ -995,5 +995,13 @@ html {
 @media(min-width:767px) {
     .buy-align {
         text-align: left;
+    }
+}
+
+/*---MT for lg and decrease MT for sm for better positioning---*/
+
+@media(min-width:767px) {
+    .amazon-margin {
+        margin-top: 2.5rem;
     }
 }
