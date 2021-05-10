@@ -1,0 +1,123 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 gradient page-header">
+            <p class="text-center pt-4">Latest News</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- News Feed 4 - 2021 -->
+    <div class="row margin-news-section1">
+        <div class="col-sm-12 col-lg-4 news-image-pr content-news-title">
+            <h3 class="text-muted text-left mb-5 d-lg-none text-uppercase text-center">Author Frank Hurst discovers an
+                ancestor with an extraordinary story to tell...</h3>
+            <div class="row">
+                <div class="col-6">
+                    <img src="static/images/news/henry-gough.png" class="img-fluid image-shadow news-book-image myImg"
+                        alt="Henry Gough, my great-grandfather circa 1880 (with tints!)" />
+                </div>
+                <div class="col-6">
+                    <img src="static/images/news/caroline-buchan.png"
+                        class="img-fluid image-shadow news-book-image myImg"
+                        alt="Caroline Buchan, my great-grandmother circa 1880" />
+                </div>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01" />
+                    <div id="caption"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-8 text-muted content-mb-news">
+            <h3 class="d-none d-lg-block">Author Frank Hurst Discovers an Ancestor with an Extraordinary Story to
+                Tell...</h3>
+            <h5><i>Ancestry</i></h5>
+            <div class="col-12 p-0">
+                <div class="block-divider-sub mx-auto mt-0 text-muted"></div>
+            </div>
+            <h5 class="pt-2">29 Apr 2021</h5>
+            <div class="col-12 p-0">
+                <div class="block-divider-sub mx-auto text-muted"></div>
+            </div>
+            <p class="pt-2 news-mb">
+                The life of Henry Gough – A Victorian Rag to Riches Tale of Passion and Courage.
+            </p>
+            <div class="read-more-news-center">
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn" class="read-more-news"><i class="fas fa-chevron-right"></i>&ensp;READ MORE&ensp;<i
+                        class="fas fa-chevron-left"></i></button>
+
+                <!-- The Modal -->
+                <div id="newsModal" class="news-modal">
+
+                    <!-- Modal content -->
+                    <div class="news-modal-content">
+                        <span class="news-close">&times;</span>
+                        <h3>The Life of Henry Gough</h3>
+                        <h3>– A Victorian Rag to Riches Tale of Passion and Courage.</h3>
+                        <div class="block-divider mx-auto mt-5 mb-3 text-muted"></div>
+                        <div class="content-mb content-para">
+                            {% include 'news-article.html' %}
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="block-divider mx-auto mt-5 mb-3 text-muted"></div>
+
+    <!-- News Feed 3 - 2021 -->
+    <div class="row margin-news-section1">
+        <div class="col-sm-12 col-lg-4 news-image-pr content-news-title">
+            <h3 class="text-muted text-left mb-5 d-lg-none text-center">An Author in Lockdown</h3>
+            <img src="static/images/news/news-26april21.png" class="img-fluid image-shadow news-book-image"
+                alt="Thailand Landscape" />
+        </div>
+        <div class="col-sm-12 col-lg-8 text-muted content-mb-news">
+            <h3 class="d-none d-lg-block">An Author in Lockdown</h3>
+            <h5><i>Expat Life in Thailand</i></h5>
+            <div class="col-12 p-0">
+                <div class="block-divider-sub mx-auto mt-0 text-muted"></div>
+            </div>
+            <h5 class="pt-2">26 Apr 21</h5>
+            <div class="col-12 p-0">
+                <div class="block-divider-sub mx-auto text-muted"></div>
+            </div>
+            <p class="pt-2 news-mb">
+                On the face of it, a global pandemic should be perfect for a writer. It requires society to keep itself
+                at arms length, maintain a respectable social distance, visit nowhere, apart perhaps from the pharmacist
+                or the greengrocer. It should be a boon for a writer. There is a perceived wisdom; all a writer needs is
+                an idea, a pen and lashings of solitude – right? Well, only partly right. Let me explain.
+            </p>
+            <div class="read-more-news-center">
+                <a href="https://expatlifeinthailand.com/travel-and-leisure/an-author-in-lockdown/"
+                    class="read-more-news" target="_blank">
+                    <i class="fas fa-chevron-right"></i>&ensp;READ MORE&ensp;<i class="fas fa-chevron-left"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="block-divider mx-auto mt-5 mb-3 text-muted"></div>
+
+    <!-- Scroll to top of page arrow -->
+    <div class="page-top-button shadow-sm rounded-0 border border-black d-xl-none">
+        <a class="page-top-link d-flex h-100">
+            <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
+        </a>
+    </div>
+</div>
+
+{% endblock %} {% block scripts %}
+
+<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal-news.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+
+{% endblock %}

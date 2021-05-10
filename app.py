@@ -104,6 +104,13 @@ def news():
     return render_template("news.html")
 
 
+# Function to load 'News'
+
+@app.route('/news2')
+def news2():
+    return render_template("news2.html")
+
+
 # Function to load 'Contact'
 
 @app.route('/contact')
