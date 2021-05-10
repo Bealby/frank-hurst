@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 gradient page-header">
+            <p class="text-center pt-4">Error Message</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row margin-about-section1">
+        <div class="col-12 my-auto ml-auto content-para">
+            <p class="mx-auto error-text text-muted text-center pl-2 pr-2">
+                Sorry! The server encountered an error and could not complete your request
+            </p>
+        </div>
+    </div>
+
+    <!-- Scroll to top of page arrow -->
+    <div class="page-top-button shadow-sm rounded-0 border border-black d-xl-none">
+        <a class="page-top-link d-flex h-100">
+            <i class="fas fa-chevron-up text-black mx-auto my-auto"></i>
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+
+{% endblock %}

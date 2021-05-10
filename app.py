@@ -118,6 +118,16 @@ def contact():
     return render_template("contact.html")
 
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template('error-messages/404.html'), 404
+
+
+@app.errorhandler(500)
+def something_wrong(error):
+    return render_template('error-messages/500.html'), 500
+
+
 # IP and PORT
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
