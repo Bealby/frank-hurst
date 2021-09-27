@@ -35,7 +35,7 @@ A live version of website can be found
 
 ## Wireframes
 
-Please find my Wireframes
+Please find wireframes
 [here](https://github.com/Bealby/frank-hurst/blob/master/documentation/readme/frank-hurst.pdf)
 
 ## Automated Testing
