@@ -22,7 +22,7 @@ This website aims to showcase Frank Hurst - the 'Novelist and Thriller
 Writer'
 
 ---
-## Live
+## Website
 
 ---
 
