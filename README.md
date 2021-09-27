@@ -19,7 +19,7 @@ corridors of power in London where deception and conspiracy loom at
 every turn.
 
 This website aims to showcase Frank Hurst - the 'Novelist and Thriller
-Writer' 
+Writer'
 
 ---
 ## Live
@@ -155,7 +155,9 @@ For deployment of Website please follow the below steps:
 - In the terminal install the Flask `requirements.txt` file using the
   command `pip3 freeze --local > requirements.txt`
 
-- The app can then be run by typing the command `python3 app.py` in the terminal
+- The app can then be run by typing the command `python3 app.py` in the
+  terminal
+
 ## Credits
 
 ---
