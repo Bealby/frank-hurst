@@ -33,10 +33,6 @@ A live version of website can be found
 
 ---
 
-![Mockup Generator](/documentation/readme/mockup-website.png/)
-
-A live version of Website can be found
-[here](https://bealby.github.io/Milestone-Project-2/)
 ## Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
