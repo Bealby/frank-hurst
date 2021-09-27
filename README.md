@@ -33,6 +33,11 @@ A live version of website can be found
 
 ---
 
+## Wireframes
+
+Please find my Wireframes
+[here](https://github.com/Bealby/frank-hurst/blob/master/documentation/readme/frank-hurst.pdf)
+
 ## Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
