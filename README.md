@@ -120,7 +120,7 @@ The following technologies were used in this project:
 
 For deployment of Website please follow the below steps:
 
-### Step-1 - GitHub
+### GitHub
 
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
@@ -145,13 +145,13 @@ For deployment of Website please follow the below steps:
 
 ---
 
-### Content
+### Website
 
-- All content for this Website was provided by Murray Bealby.
+- Website - Murray Bealby.
 
 ### Media
 
-- All photos and video were provided by Murray Bealby.
+- All content, photos and video - Frank Hurst
 
 ### Code
 
