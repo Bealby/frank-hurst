@@ -26,7 +26,7 @@ Writer'
 
 ---
 
-![Mockup Generator](/documentation/mockup-up.png/)
+![Mockup Generator](/documentation/mock-up.png/)
 
 A live version of website can be found
 [here](http://www.frankhurst.com/)
