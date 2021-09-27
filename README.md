@@ -22,7 +22,22 @@ This website aims to showcase Frank Hurst - the 'Novelist and Thriller
 Writer' 
 
 ---
-### Automated Testing
+## Live
+
+---
+
+![Mockup Generator](/documentation/mockup-up.png/)
+
+A live version of website can be found
+[here](http://www.frankhurst.com/)
+
+---
+
+![Mockup Generator](/documentation/readme/mockup-website.png/)
+
+A live version of Website can be found
+[here](https://bealby.github.io/Milestone-Project-2/)
+## Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
     input into the Mark-Up Validation Service.
