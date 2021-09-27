@@ -18,8 +18,10 @@ and rivalry in the dangerous jungles of the Golden Triangle and the
 corridors of power in London where deception and conspiracy loom at
 every turn.
 
----
+This website aims to showcase Frank Hurst - the 'Novelist and Thriller
+Writer' 
 
+---
 ### Automated Testing
 
 [W3C](https://validator.w3.org/) - All HTML files with their data were directly
@@ -73,11 +75,6 @@ The following technologies were used in this project:
    Bootstrap to collapse Navigation Bar for small devices and Google Maps.
    Also used for EmailJS.
 
-### Databases
-
-- [MongoDB](https://www.mongodb.com/) - MongoDB is a general purpose,
-  document-based, distributed database built for modern application developers
-
 ### Language Validators
 
 - [W3C](https://validator.w3.org/) - Used to validate HTML code
@@ -114,13 +111,8 @@ The following technologies were used in this project:
 
 - [BOOTSTRAP](https://getbootstrap.com/) - A framework for building responsive
    Websites where the powerful Grid system was used along with styling
-- [jQuery](https://jquery.com/) - Used to implement Navigation Collapse feature
-   JavaScript Plugin
-- [Popper](https://popper.js.org/) - Used to implement Navigation Collapse
-   feature JavaScript Plugin
 - [Flask](https://flask.palletsprojects.com/en/1.1.x/) - A micro web framework
    written in Python
-- [Emailjs](https://www.emailjs.com/) - For sending email directly From JavaScript
 
 ## Deployment
 
@@ -128,31 +120,12 @@ The following technologies were used in this project:
 
 For deployment of Website please follow the below steps:
 
-### Step-1 - Heroku
-
-- Click the following link [Heroku Login](https://id.heroku.com/login) and
-  and set-up an account in Heroku
-
-- Click on the icon to `Create New App`
-
-- Input an unique `App Name` and `Choose a Region` and click `Create App`
-
-- Click the link `Settings`and scroll to the button `Reveal Convig Vars`
-
-- In the `Convig Vars` add the following inputs for `Key` and `Value`
-  - KEY = `IP`, VALUE = `0.0.0.0`
-  - KEY = `PORT`, VALUE = `5000`
-  - KEY = `EMAILJS_KEY`, VALUE = `EMAIJS USER ID`
-  - KEY = `MONGO_URI`, VALUE = `MONGO USER ID`
-
-- `EMAIJS USER ID` and `MONGO USER ID` can be provided upon request.
-
-### Step-2 - GitHub
+### Step-1 - GitHub
 
 - Click the following link [GitHub](https://github.com/) and
   and set up an account in GitHub.
 
-- Click the following GitHub repository [Magnet Fishing](https://github.com/Bealby/Milestone-Project-3)
+- Click the following GitHub repository [Frank Hurst](https://github.com/Bealby/frank-hurst)
 
 - On the main page of the repository click the green button **Code**.
 
@@ -167,41 +140,7 @@ For deployment of Website please follow the below steps:
 - In the terminal install the Flask `requirements.txt` file using the
   command `pip3 freeze --local > requirements.txt`
 
-- For local deployment in GitPod, create the file `env.py` which will contain
-  confidential `USER KEYS` that can be provided upon request.
-
 - The app can then be run by typing the command `python3 app.py` in the terminal
-
-### Step-3 - Connecting GitHub to Heroku for deployment
-
-- In the terminal log login into Heroku using the command `heroku login`
-
-- Enter your `Email` and `Password` when prompted
-
-- (`Heroku Apps` created can be viewed using the command `heroku apps`)
-
-- Set up `Heroku` as `Master` branch using the command `heroku git:remote -a app-name`.
-  The `app-name` being the name of the `Heroku App` created in Step-1.
-
-- Then in the terminal type the command `echo web: python app.py > Procfile`.
-
-- Then the command `heroku ps:scale web=1`.
-
-- Finally to update:
-  - `git init`
-  - `git add .`
-  - `git commit -m ""`
-  - `git push -u heroku master` (Push to heroku)
-  - `git push origin master` (Push locally to GitHub)
-
-- When you are ready for `Production` deployment change the
-  `debug=True` to `debug=False` in the `app.py`.
-
-- Login into Heroku in your browser window. Click your hero app and then click
- `Open App` to launch Website. i.e. `https://app-name-here.herokuapp.com/`.
-
-[Go to top](#contents)
-
 ## Credits
 
 ---
