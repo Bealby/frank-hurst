@@ -76,11 +76,11 @@
     <!--Book Scroll-->
     <div class="container-fluid pr-0 pl-0">
         <div class="row no-gutters">
-            <div class="book-box mx-auto icon-shadow book-scroll-header-padding">
+            <div class="book-box mx-auto icon-shadow book-scroll-header-padding" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="text-center" id="book-scroll-header">BOOKS</h2>
             </div>
             <div class="row no-gutters col-12 p-5 book-catalogue text-center">
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-1">
+                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-1" data-aos="fade-up" data-aos-duration="1000">
                     <div class="hover-book">
                         <a href="{{url_for('book1')}}">
                             <img src="static/images/book-covers/postmistress-front.png" class="img-fluid book-images"
@@ -91,7 +91,7 @@
                     <a href="{{url_for('book1')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
                         MORE&ensp;<i class="fas fa-chevron-left"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-2">
+                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-2" data-aos="fade-up" data-aos-duration="1000">
                     <div class="hover-book">
                         <a href="{{url_for('book2')}}">
                             <img src="static/images/book-covers/changmai-front.png" class="img-fluid book-images"
@@ -102,7 +102,7 @@
                     <a href="{{url_for('book2')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
                         MORE&ensp;<i class="fas fa-chevron-left"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34">
+                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34" data-aos="fade-up" data-aos-duration="1000">
                     <div class="hover-book">
                         <a href="{{url_for('book3')}}">
                             <img src="static/images/book-covers/mekong-front.png" class="img-fluid book-images"
@@ -113,7 +113,7 @@
                     <a href="{{url_for('book3')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
                         MORE&ensp;<i class="fas fa-chevron-left"></i></a>
                 </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34">
+                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34" data-aos="fade-up" data-aos-duration="1000">
                     <div class="hover-book">
                         <a href="{{url_for('book4')}}">
                             <img src="static/images/book-covers/peccavi-front.png" class="img-fluid book-images"
@@ -160,6 +160,10 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     {% block scripts %} {% endblock %}
+    <!-- OS Animation -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
