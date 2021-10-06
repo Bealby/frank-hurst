@@ -146,6 +146,11 @@ html {
     margin-left: 0.25rem;
 }
 
+.bottom-block {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
 
 /*--Navbar--*/
 
