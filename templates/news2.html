@@ -10,7 +10,7 @@
 
 <div class="container">
     <!-- News Feed 5 - 2021 -->
-    <div class="row margin-news-section1">
+    <div class="row margin-news-section1" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-sm-12 col-lg-4 news-image-pr content-news-title">
             <h3 class="text-muted text-left mb-5 d-lg-none text-uppercase text-center">The Peccavi Plot</h3>
             <div class="row">
@@ -58,7 +58,7 @@
     </div>
     <div class="block-divider mx-auto mt-5 mb-3 text-muted"></div>
     <!-- News Feed 4 - 2021 -->
-    <div class="row margin-news-section1">
+    <div class="row margin-news-section1" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-sm-12 col-lg-4 news-image-pr content-news-title">
             <h3 class="text-muted text-left mb-5 d-lg-none text-uppercase text-center">The Peccavi Plot</h3>
             <div class="row">
@@ -121,7 +121,7 @@
     <div class="block-divider mx-auto mt-5 mb-3 text-muted"></div>
 
     <!-- News Feed 3 - 2021 -->
-    <div class="row margin-news-section1">
+    <div class="row margin-news-section1" data-aos="fade-up" data-aos-duration="1000">
         <div class="col-sm-12 col-lg-4 news-image-pr content-news-title">
             <h3 class="text-muted text-left mb-5 d-lg-none text-center">An Author in Lockdown</h3>
             <img src="static/images/news/news-26april21.png" class="img-fluid image-shadow news-book-image"
@@ -166,5 +166,9 @@
 <script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/modal-news.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+<!-- AOS Animation -->
+<script>
+  AOS.init();
+</script>
 
 {% endblock %}

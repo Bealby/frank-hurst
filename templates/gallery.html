@@ -12,7 +12,7 @@
 
 <div class="container">
     <div class="row margin-news-section1">
-        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding">
+        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding" data-aos="fade-down-right" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 mb-3 text-muted">
                     <!--Header for sm/md-->
@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding">
+        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding" data-aos="fade-down-left" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 mb-3 text-muted">
                     <!--Header for sm/md-->
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding">
+        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding" data-aos="fade-up-right" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 mb-3 text-muted">
                     <!--Header for sm/md-->
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding text-center">
+        <div class="col-sm-12 col-md-12 col-lg-6 gallery-padding text-center" data-aos="fade-up-left" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 mb-3 text-muted">
                     <!--Header for sm/md-->
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3 gallery-padding">
+        <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3 gallery-padding" data-aos="fade-up" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 mb-3 text-muted">
                     <!--Header for sm/md-->
@@ -172,5 +172,9 @@
 
 <script src="{{ url_for('static', filename='js/image-modal.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+<!-- OS Animation -->
+<script>
+  AOS.init();
+</script>
 
 {% endblock %}
