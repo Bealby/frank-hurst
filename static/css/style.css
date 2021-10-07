@@ -147,12 +147,12 @@ html {
 }
 
 .bottom-block {
-    padding-bottom: 4rem;
-    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .top-block {
-    padding-top: 2rem;
+    padding-top: 0rem;
 }
 
 
@@ -1079,5 +1079,24 @@ html {
         padding: 20px;
         border: 1px solid rgb(128, 128, 128, 1);
         width: 80%;
+    }
+}
+
+
+/*---PT/PB for block container for better spacing between header and content for mb/md/lg---*/
+
+@media(min-width:767px) {
+    .bottom-block {
+        padding-bottom: 4rem;
+        padding-top: 5rem;
+    }
+}
+
+
+/*---PT for block container for better spacing between footer and content for mb/md/lg---*/
+
+@media(min-width:767px) {
+    .top-block {
+        padding-top: 2rem;
     }
 }
