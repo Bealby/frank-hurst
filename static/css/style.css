@@ -136,6 +136,7 @@ html {
 
 .news-mb {
     margin-bottom: 2rem !important;
+    font-size: 1.1rem;
 }
 
 .book-spacing-a {
@@ -1027,6 +1028,7 @@ html {
 @media(min-width:767px) {
     .news-mb {
         margin-bottom: 3rem;
+        font-size: 1rem;
     }
 }
 
