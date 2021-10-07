@@ -520,8 +520,8 @@ html {
 .read-more {
     border: 0.1rem solid;
     border-color: rgb(128, 128, 128, 1);
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
     text-decoration: none !important;
