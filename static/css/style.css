@@ -1082,17 +1082,6 @@ html {
     }
 }
 
-
-/*---PT/PB for block container for better spacing between header and content for mb/md/lg---*/
-
-@media(min-width:767px) {
-    .bottom-block {
-        padding-bottom: 4rem;
-        padding-top: 5rem;
-    }
-}
-
-
 /*---PT for block container for better spacing between footer and content for mb/md/lg---*/
 
 @media(min-width:767px) {
