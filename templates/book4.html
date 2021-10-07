@@ -19,19 +19,8 @@
         <!--Header for sm/md-->
         <h2 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">The Peccavi Plot</h2>
         <div class="col-md-12 col-lg-6 text-center my-auto">
-            <img src="static/images/book-covers/peccavi-front.png"
-                class="img-fluid book-images image-shadow book-mb book-spacing-a myImg" alt="The Peccavi Plot - 
-                Book Cover Front" />
-            <img src="static/images/book-covers/peccavi-back.png"
-                class="img-fluid book-images image-shadow book-mb book-spacing-b myImg"
-                alt="The Peccavi Plot - Book Cover Back" />
-
-            <!-- Modal -->
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01" />
-                <div id="caption"></div>
-            </div>
+            <img src="static/images/book-covers/peccavi_plot_mockups.png"
+                class="img-fluid book-mb" alt="The Peccavi Plot - Book Cover" />
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
             <!--Header for lg-->
@@ -105,7 +94,6 @@
 
 {% endblock %} {% block scripts %}
 
-<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 <!-- AOS Animation-->
 <script>
