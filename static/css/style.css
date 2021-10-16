@@ -185,6 +185,17 @@ html {
     border-color: rgb(255, 199, 0, 0.2);
 }
 
+button,
+input,
+optgroup,
+select,
+textarea {
+    background: rgb(153, 153, 153, 1);
+    border: rgb(153, 153, 153, 1);
+    color: rgb(255, 184, 68, 1);
+    font-family: 'Lato', sans-serif;
+}
+
 
 /*--Gradient - Title--*/
 
