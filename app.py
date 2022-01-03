@@ -97,6 +97,13 @@ def galleryFarm():
     return render_template("gallery-farms.html")
 
 
+# Function to load 'Gallery-Chiang'
+
+@app.route('/galleryChiang')
+def galleryChiang():
+    return render_template("gallery-chiang.html")
+
+
 # Function to load 'News'
 
 @app.route('/news')
