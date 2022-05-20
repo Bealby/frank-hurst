@@ -25,5 +25,8 @@
    "editor.formatOnSave": true,
    "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
+   },
+   "[django-html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
    }
 }
