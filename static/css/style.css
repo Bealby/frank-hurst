@@ -997,7 +997,7 @@ textarea {
 
 /*---PL PR increase for <p> content for mb devices for better spacing/ Reading---*/
 
-@media(max-width:767px) {
+@media(min-width:767px) {
     .content-mb {
         padding-left: 0rem !important;
         padding-right: 0rem !important;
