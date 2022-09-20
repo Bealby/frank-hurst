@@ -104,6 +104,12 @@ def galleryChiang():
     return render_template("gallery-chiang.html")
 
 
+# Function to load 'Gallery-LR Price'
+
+@app.route('/galleryLrprice')
+def galleryChiang():
+    return render_template("gallery-lr-price.html")
+
 # Function to load 'News'
 
 @app.route('/news')
