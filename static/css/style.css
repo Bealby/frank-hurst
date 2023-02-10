@@ -270,6 +270,10 @@ textarea {
 
 /* Hover-overlay Book */
 
+.book-posters:hover {
+    opacity: 0.7;
+}
+
 .hover-book:hover {
     opacity: 0.7;
 }
@@ -595,6 +599,15 @@ textarea {
 
 
 /*--Images--*/
+
+.poster-img-fluid {
+    width: 70%;
+    height: auto;
+}
+
+.book-carousel img {
+    width: 45%;
+}
 
 .book-images {
     max-width: 45%;

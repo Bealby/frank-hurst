@@ -80,62 +80,212 @@
     </div>
 
     <!--Book Scroll-->
-    <div class="container-fluid pr-0 pl-0">
-        <div class="row no-gutters">
-            <div class="book-box mx-auto icon-shadow book-scroll-header-padding" data-aos="fade-up"
-                data-aos-duration="1200">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="book-box mx-auto icon-shadow book-scroll-header-padding">
                 <h2 class="text-center" id="book-scroll-header">BOOKS</h2>
             </div>
-            <div class="row no-gutters col-12 p-5 book-catalogue text-center">
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-1" data-aos="fade-up"
-                    data-aos-duration="1500">
-                    <div class="hover-book">
-                        <a href="{{url_for('book1')}}">
-                            <img src="static/images/book-covers/postmistress-front.png" class="img-fluid book-images"
-                                alt="The Postmistress of Nong Khai - Book Cover" />
-                        </a>
+        </div>
+        <div class="row pt-5 pl-5 pr-5 pb-2 book-catalogue">
+            <!---Carousel--->
+            <!---Display Desktop--->
+            <div id="carouselExampleControls" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mx-auto">
+                            <div class="col-md-3 mb-3 p-4">
+                                <a href="{{url_for('book1')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
+                                            srcset="static/images/book-covers/postmistress-front.png"
+                                            class="d-block mx-auto poster-img-fluid book-posters"
+                                            alt="The Postmistress of Nong Khai - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="col-md-3 mb-3 p-4">
+                                <a href="{{url_for('book2')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                            srset="static/images/book-covers/changmai-front.png"
+                                            class="d-block mx-auto poster-img-fluid book-posters"
+                                            alt="The Chiang Mai Assignment - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="col-md-3 mb-3 p-4">
+                                <a href="{{url_for('book3')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/mekong-front.png"
+                                            srcset="static/images/book-covers/mekong-front.png"
+                                            class="d-block mx-auto poster-img-fluid book-posters"
+                                            alt="Mekong Dragon - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="col-md-3 mb-3 p-4">
+                                <a href="{{url_for('book4')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/peccavi-front.png"
+                                            srcset="static/images/book-covers/peccavi-front.png"
+                                            class="d-block mx-auto poster-img-fluid book-posters"
+                                            alt="The Paccavi Plot - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <p class="pt-3 book-scroll-title mb-4">The Postmistress of Nong Khai</p>
-                    <a href="{{url_for('book1')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
-                        MORE&ensp;<i class="fas fa-chevron-left"></i></a>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-2" data-aos="fade-up"
-                    data-aos-duration="1500">
-                    <div class="hover-book">
-                        <a href="{{url_for('book2')}}">
-                            <img src="static/images/book-covers/changmai-front.png" class="img-fluid book-images"
-                                alt="The Chiang Mai Assignment - Book Cover" />
-                        </a>
-                    </div>
-                    <p class="pt-3 book-scroll-title mb-4">The Chiang Mai Assignment</p>
-                    <a href="{{url_for('book2')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
-                        MORE&ensp;<i class="fas fa-chevron-left"></i></a>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34" data-aos="fade-up"
-                    data-aos-duration="1500">
-                    <div class="hover-book">
-                        <a href="{{url_for('book3')}}">
-                            <img src="static/images/book-covers/mekong-front.png" class="img-fluid book-images"
-                                alt="Mekong Dragon - Book Cover" />
-                        </a>
-                    </div>
-                    <p class="pt-3 book-scroll-title mb-4">Mekong Dragon</p>
-                    <a href="{{url_for('book3')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
-                        MORE&ensp;<i class="fas fa-chevron-left"></i></a>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3 p-0 book-scroll-margins-34" data-aos="fade-up"
-                    data-aos-duration="1500">
-                    <div class="hover-book">
-                        <a href="{{url_for('book4')}}">
-                            <img src="static/images/book-covers/peccavi-front.png" class="img-fluid book-images"
-                                alt="The Paccavi Plot - Book Cover" />
-                        </a>
-                    </div>
-                    <p class="pt-3 book-scroll-title mb-4">The Peccavi Plot</p>
-                    <a href="{{url_for('book4')}}" class="read-more"><i class="fas fa-chevron-right"></i>&ensp;READ
-                        MORE&ensp;<i class="fas fa-chevron-left"></i></a>
                 </div>
             </div>
+
+            <!---Display Medium--->
+            <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block d-lg-none"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mx-auto">
+                            <div class="col-md-6 mb-3">
+                                <a href="{{url_for('book1')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
+                                            srcset="static/images/book-covers/postmistress-front.png"
+                                            class="d-block w-50 mx-auto book-posters"
+                                            alt="The Postmistress of Nong Khai - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{{url_for('book2')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                            srcset="static/images/book-covers/changmai-front.png"
+                                            class="d-block w-50 mx-auto book-posters"
+                                            alt="The Chiang Mai Assignment - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-auto">
+                            <div class="col-md-6 mb-3">
+                                <a href="{{url_for('book3')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/mekong-front.png"
+                                            srcset="static/images/book-covers/mekong-front.png"
+                                            class="d-block w-50 mx-auto book-posters" alt="Mekong Dragon - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <a href="{{url_for('book4')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/peccavi-front.png"
+                                            srcset="static/images/book-covers/peccavi-front.png"
+                                            class="d-block w-50 mx-auto book-posters"
+                                            alt="The Paccavi Plot - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!---Display Small--->
+            <div id="carouselExampleControlsNoTouching" class="carousel slide d-md-none" data-bs-touch="false"
+                data-bs-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row mx-auto">
+                            <div class="col-12 mb-3 book-carousel">
+                                <a href="{{url_for('book1')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
+                                            srcset="static/images/book-covers/postmistress-front.png"
+                                            class="d-block mx-auto book-posters"
+                                            alt="The Postmistress of Nong Khai - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-auto">
+                            <div class="col-12 mb-3 book-carousel">
+                                <a href="{{url_for('book2')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                            srcset="static/images/book-covers/changmai-front.png"
+                                            class="d-block mx-auto book-posters"
+                                            alt="The Chiang Mai Assignment - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-auto book-carousel">
+                            <div class="col-12 mb-3">
+                                <a href="{{url_for('book3')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/mekong-front.png"
+                                            srcset="static/images/book-covers/mekong-front.png"
+                                            class="d-block mx-auto book-posters" alt="Mekong Dragon - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row mx-auto book-carousel">
+                            <div class="col-12 mb-3">
+                                <a href="{{url_for('book4')}}">
+                                    <picture>
+                                        <source type="image/webp">
+                                        <img loading="lazy" src="static/images/book-covers/peccavi-front.png"
+                                            srcset="static/images/book-covers/peccavi-front.png"
+                                            class="d-block mx-auto book-posters" alt="The Paccavi Plot - Book Cover">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
         </div>
     </div>
 
