@@ -684,19 +684,27 @@ textarea {
 
 /*-----Page-Top-Scroll-Feature-----*/
 
-.page-top-button {
-    height: 2.625rem;
-    width: 2.625rem;
-    position: fixed;
-    bottom: 0.625rem;
-    right: 0.625rem;
-    z-index: 1
+#my-scroll-to-top-btn {
+    position: fixed !important;
+    bottom: 12px !important;
+    right: 10px !important;
+    z-index: 20 !important;
+    font-size: 18px !important;
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(128, 0, 0, 0.6) !important;
+    color: rgb(255, 255, 255, 1) !important;
+    cursor: pointer !important;
+    padding: 8px !important;
+    border-radius: 50% !important;
+    transition: all 5s ease-out !important;
+    width: 40px !important;
+    height: 40px !important;
+    visibility: hidden;
 }
 
-.page-top-link {
-    cursor: pointer;
-    text-decoration: none !important;
-    z-index: 1
+.fa-arrow-up {
+    transition: all 5s ease-out !important;
 }
 
 

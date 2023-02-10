@@ -1,7 +1,7 @@
 // Scroll To Top START
 
 function scrollFunction() {
-    var myScrollToTopBtn = document.getElementById("page-top-link");
+    var myScrollToTopBtn = document.getElementById("my-scroll-to-top-btn");
     if (window.pageYOffset > 700) {
         myScrollToTopBtn.style.display = "block";
         myScrollToTopBtn.style.visibility = "visible";
