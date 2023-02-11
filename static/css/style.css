@@ -103,7 +103,7 @@ html {
 }
 
 .gallery-padding {
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -973,7 +973,7 @@ textarea {
 
 @media(min-width:767px) {
     .gallery-padding {
-        padding-bottom: 5rem;
+        padding-bottom: 0rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
