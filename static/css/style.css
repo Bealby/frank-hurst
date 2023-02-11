@@ -1122,6 +1122,6 @@ textarea {
 
 @media(min-width:767px) {
     .top-block {
-        padding-top: 2rem;
+        padding-top: 1rem;
     }
 }
