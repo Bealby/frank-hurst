@@ -20,19 +20,10 @@
         <h3 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none pl-1 pr-1">The Postmistress of Nong Khai</h3>
         <div class="col-md-12 col-lg-6 text-center my-auto">
             <img src="static/images/book-covers/postmistress-front.png"
-                class="img-fluid book-images image-shadow book-mb book-spacing-a myImg"
-                alt="The Postmistress of Nong Khai" />
+                class="img-fluid book-images image-shadow book-mb book-spacing-a" alt="The Postmistress of Nong Khai" />
 
             <img src="static/images/book-covers/postmistress-back.png"
-                class="img-fluid book-images image-shadow book-mb book-spacing-b myImg"
-                alt="The Postmistress of Nong Khai" />
-
-            <!-- Modal -->
-            <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01" />
-                <div id="caption"></div>
-            </div>
+                class="img-fluid book-images image-shadow book-mb book-spacing-b" alt="The Postmistress of Nong Khai" />
         </div>
         <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
             <!--Header for lg-->
@@ -108,7 +99,6 @@
 
 {% endblock %} {% block scripts %}
 
-<script src="{{ url_for('static', filename='js/modal-book1.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 <!-- AOS Animation-->
 <script>
