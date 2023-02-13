@@ -308,12 +308,13 @@
       </p>
       <div class="read-more-news-center">
         <!-- Trigger/Open The Modal -->
-        <button id="myBtn" class="read-more-news">
+        <button type="button" class="read-more-news" data-toggle="modal" data-target="#exampleModal">
           <i class="fas fa-chevron-right"></i>&ensp;READ MORE&ensp;<i class="fas fa-chevron-left"></i>
         </button>
 
         <!-- The Modal -->
-        <div id="newsModal" class="news-modal">
+        <div class="modal news-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
           <!-- Modal content -->
           <div class="news-modal-content">
             <span class="news-close">&times;</span>
@@ -377,7 +378,6 @@
 </div>
 
 {% endblock %} {% block scripts %}
-<script src="{{ url_for('static', filename='js/modal-news.js') }}"></script>
 <script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
 <!-- AOS Animation -->
 <script>

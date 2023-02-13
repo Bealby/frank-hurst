@@ -282,12 +282,6 @@ textarea {
 
 /* The Modal (background) */
 .news-modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
     padding-top: 40px;
     /* Location of the box */
     left: 0;
@@ -319,7 +313,6 @@ textarea {
     float: right;
     font-size: 28px;
     font-weight: bold;
-    z-index: 1;
 }
 
 .news-close:hover,
