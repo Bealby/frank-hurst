@@ -307,21 +307,6 @@ textarea {
     width: 95%;
 }
 
-/* The Close Button */
-.news-close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.news-close:hover,
-.news-close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 
 /* 100% Image Width on Smaller Screens */
 
