@@ -465,7 +465,7 @@ textarea {
 }
 
 .home_image {
-    max-width: 60% !important;
+    max-width: 80% !important;
 }
 
 /*-----Font Awesome Icons-----*/
@@ -952,6 +952,6 @@ textarea {
 
 @media(min-width:767px) {
     .home_image {
-        max-width: 100% !important;
+        max-width: 60% !important;
     }
 }
