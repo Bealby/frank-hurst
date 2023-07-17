@@ -946,3 +946,12 @@ textarea {
         padding-top: 1rem;
     }
 }
+
+
+/*---PT for block container for better spacing between footer and content for mb/md/lg---*/
+
+@media(min-width:767px) {
+    .home_image {
+        max-width: 100% !important;
+    }
+}
