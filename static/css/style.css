@@ -953,5 +953,6 @@ textarea {
 @media(min-width:767px) {
     .home_image {
         max-width: 60% !important;
+        margin-top: 5rem;
     }
 }
