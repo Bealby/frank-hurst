@@ -952,7 +952,7 @@ textarea {
 
 @media(min-width:767px) {
     .home_image {
-        max-width: 60% !important;
+        max-width: 80% !important;
         margin-top: 5rem;
     }
 }
