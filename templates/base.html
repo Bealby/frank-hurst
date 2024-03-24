@@ -93,8 +93,7 @@
                 <!---Carousel--->
 
                 <!---Display Desktop--->
-                <div id="carouselExampleSlidesOnly" class="carousel slide d-none d-lg-block mx-auto"
-                    data-bs-ride="carousel">
+                <div id="" class="carousel slide d-none d-lg-block mx-auto" data-bs-ride="carousel">
                     <div class="carousel-inner mx-auto">
                         <div class="carousel-item active">
                             <div class="row mx-auto">
@@ -175,7 +174,7 @@
                     <div class="carousel-inner mx-auto">
                         <div class="carousel-item active">
                             <div class="row mx-auto">
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{{url_for('book1')}}">
                                         <picture>
                                             <source type="image/webp">
@@ -186,7 +185,18 @@
                                         </picture>
                                     </a>
                                 </div>
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book2')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                                srcset="static/images/book-covers/changmai-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Chiang Mai Assignment - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
                                     <a href="{{url_for('book2')}}">
                                         <picture>
                                             <source type="image/webp">
@@ -201,7 +211,7 @@
                         </div>
                         <div class="carousel-item">
                             <div class="row mx-auto">
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{{url_for('book3')}}">
                                         <picture>
                                             <source type="image/webp">
@@ -212,7 +222,7 @@
                                         </picture>
                                     </a>
                                 </div>
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <a href="{{url_for('book4')}}">
                                         <picture>
                                             <source type="image/webp">
@@ -220,6 +230,17 @@
                                                 srcset="static/images/book-covers/peccavi-front.png"
                                                 class="d-block w-50 mx-auto book-posters"
                                                 alt="The Paccavi Plot - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/story_of_jett_front.jpg"
+                                                srcset="static/images/book-covers/story_of_jett_front.jpg"
+                                                class="d-block mx-auto poster-img-fluid book-posters"
+                                                alt="The Story of Jett - Book Cover">
                                         </picture>
                                     </a>
                                 </div>
