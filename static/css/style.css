@@ -63,6 +63,11 @@ html {
     margin-bottom: 3rem;
 }
 
+.margin-news-section1_footnote {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
 .margin-about-section2 {
     /*--1st Para--*/
     /*--Used for news.html also--*/
