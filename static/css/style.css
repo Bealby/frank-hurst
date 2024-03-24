@@ -31,6 +31,9 @@ html {
     font-size: 1.1rem !important;
 }
 
+.footnote-news p {
+    font-size: 0.9rem !important;
+}
 
 /*--Margins/ Padding--*/
 
@@ -682,6 +685,13 @@ textarea {
     }
 }
 
+@media(min-width:991px) {
+    .margin-news-section1_footnote {
+        margin-top: 3rem;
+        margin-bottom: 0rem;
+    }
+
+}
 
 /*---Margin top/ bottom for 'About' section for better viewing for md/sm (1st Para)---*/
 
