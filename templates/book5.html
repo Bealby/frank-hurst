@@ -1,0 +1,76 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 gradient page-header">
+            <p class="text-center pt-4">New Release</p>
+        </div>
+    </div>
+</div>
+
+<div class="container top-block">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <!--Header for sm/md-->
+        <h2 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">The Story of Jett</h2>
+        <div class="col-md-12 col-lg-6 text-center my-auto">
+            <img src="static/images/book-covers/the_story_of_jett_v2.jpg" class="img-fluid book-mb"
+                alt="The Peccavi Plot - Book Cover" />
+        </div>
+        <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
+            <!--Header for lg-->
+            <h2 class="text-left pt-2 mb-3 text-muted d-none d-lg-block">The Story of Jett</h2>
+            <p class="text-muted content-mb">
+                The Story of Jett is set in a distant corner of our galaxy on the moon Trident, one of the swirling
+                satellites of the
+                planet Neptuna. It is the story of an eight-year-old boy's mission to find his long-lost family and will
+                thrill younger
+                readers who enjoy adventure books or listening to bedtime stories read to them by adults.</p>
+            <p class="text-muted content-mb">Fully illustrated in gloriously vibrant colours by the highly acclaimed
+                artist, Susy Jones, this is a must read for all
+                youngsters who relish exciting tales, vibrant characters and stories with plenty of surprises.</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 buy-align amazon-margin">
+                    <a href="https://www.troubador.co.uk/bookshop/young-children/the-story-of-jett"
+                        class="mango-btn icon-shadow" target="_blank">
+                        &nbsp;&nbsp;<i class="fas fa-shopping-cart"></i>
+                        <span id="text">&nbsp;&nbsp;Troubador&nbsp;&nbsp;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3 mt-5 text-muted">
+        <div class="col-12">
+            <!--Header for sm/md-->
+            <h3 class="text-left mt-0 mb-3 d-lg-none content-mb uppercase">
+                Praise for The Story of Jett</h3>
+            <!--Header for lg-->
+            <h2 class="text-left mt-5 mb-4 d-none d-lg-block uppercase">
+                Praise for The Story of Jett</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 book-pr content-para">
+            <p class="content-mb">“I liked the book very much. It was interesting and exciting. I loved it! I would like
+                there to be another book so we can
+                find out what happens with Jett.”</p>
+        </div>
+    </div>
+
+    <!-- Scroll to top of page arrow -->
+    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</div>
+
+{% endblock %} {% block scripts %}
+
+<script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+<!-- AOS Animation-->
+<script>
+    AOS.init();
+</script>
+
+{% endblock %}
