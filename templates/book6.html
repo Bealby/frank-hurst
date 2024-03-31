@@ -1,0 +1,86 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 gradient page-header">
+            <p class="text-center pt-4">New Release</p>
+        </div>
+    </div>
+</div>
+
+<div class="container top-block">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <!--Header for sm/md-->
+        <h2 class="text-center pt-1 mb-5 text-muted mx-auto d-lg-none">The Bangkok Betrayal</h2>
+        <div class="col-md-12 col-lg-6 text-center my-auto">
+            <img src="static/images/book-covers/bangkok_betrayal_v2.jpg" class="img-fluid book-mb"
+                alt="The Peccavi Plot - Book Cover" />
+        </div>
+        <div class="col-md-12 col-lg-6 my-auto ml-auto content-para">
+            <!--Header for lg-->
+            <h2 class="text-left mt-5 mb-3 text-muted d-none d-lg-block">The Bangkok Betrayal</h2>
+            <p class="text-muted content-mb">
+                An extraordinary turn of events sees cab proprietor, Henry Gough propelled
+                from the familiar streets of Victorian London
+                into the grip of a stirring adventure, full of danger, political intrigue and ruthless treachery in
+                faraway Siam.</p>
+            <p class="text-muted content-mb">When Henry becomes the only witness to the brutal murder of his passenger
+                on one of London's richest avenues, he is
+                given a clandestine mission to perform - one which will end on the banks of Bangkok's steamy Chao Phraya
+                River. As he
+                uncovers a sinister plot that will bring chaos to Siam, Henry draws ever closer to revealing the
+                assassin's true
+                identity, and is forced to confront powerful forces that threaten his own life.</p>
+            <p class="text-muted content-mb">As Britain and France's colonial ambitions clash inside the court of King
+                Chulalongkorn, the scene is set for a bitter
+                struggle that will decide the fate of Siam itself.</p>
+            <p class="text-muted content-mb">The Bangkok Betrayal is a breathtaking addition to the series of Henry
+                Gough novels that began with The Peccavi Plot.</p>
+            <p class="text-muted content-mb">“While twists and turns abound, the story retains the authenticity for
+                which Hurst's writing is so renowned.”</p>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 buy-align amazon-margin">
+                    <a href="https://bookguild.co.uk/bookshop/the-bangkok-betrayal/" class="mango-btn icon-shadow"
+                        target="_blank">
+                        &nbsp;&nbsp;<i class="fas fa-shopping-cart"></i>
+                        <span id="text">&nbsp;&nbsp;&nbsp;Book Guild&nbsp;&nbsp;&nbsp;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3 mt-5 text-muted">
+        <div class="col-12">
+            <!--Header for sm/md-->
+            <h3 class="text-left mt-0 mb-3 d-lg-none content-mb uppercase">
+                Praise for The Story of Jett</h3>
+            <!--Header for lg-->
+            <h2 class="text-left mt-3 mb-4 d-none d-lg-block uppercase">
+                Praise for The Story of Jett</h2>
+        </div>
+        <div class="col-sm-12 col-md-12 book-pr content-para">
+            <p class="content-mb">“I liked the book very much. It was interesting and exciting. I loved it! I would like
+                there to be another book so we can
+                find out what happens with Jett.”</p>
+        </div>
+    </div>
+
+    <!-- Scroll to top of page arrow -->
+    <button onclick="topFunction()" id="my-scroll-to-top-btn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+</div>
+
+{% endblock %} {% block scripts %}
+
+<script src="{{ url_for('static', filename='js/scroll.js') }}"></script>
+<!-- AOS Animation-->
+<script>
+    AOS.init();
+</script>
+
+{% endblock %}
