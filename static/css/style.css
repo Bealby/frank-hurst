@@ -425,6 +425,11 @@ textarea {
 
 /*--Images--*/
 
+.img-fluid-peccavi {
+    max-width: 50% !important;
+    height: auto !important;
+}
+
 .poster-img-fluid {
     width: 60%;
     height: auto;
