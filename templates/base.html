@@ -92,88 +92,12 @@
 
                 <!---Carousel--->
 
-                <!---Display Desktop--->
-                <div class="d-none d-sm-block mx-auto">
-                    <div class="mx-auto">
-                        <div>
-                            <div class="row mx-auto">
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book1')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
-                                                srcset="static/images/book-covers/postmistress-front.png"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="The Postmistress of Nong Khai - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book2')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="static/images/book-covers/changmai-front.png"
-                                                srset="static/images/book-covers/changmai-front.png"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="The Chiang Mai Assignment - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book3')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="static/images/book-covers/mekong-front.png"
-                                                srcset="static/images/book-covers/mekong-front.png"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="Mekong Dragon - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book4')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="static/images/book-covers/peccavi-front.png"
-                                                srcset="static/images/book-covers/peccavi-front.png"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="The Paccavi Plot - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book5')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy" src="static/images/book-covers/story_of_jett_front.jpg"
-                                                srcset="static/images/book-covers/story_of_jett_front.jpg"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="The Story of Jett - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                                <div class="col-lg-2 col-md-4 col-sm-6 mb-3 p-4">
-                                    <a href="{{url_for('book6')}}">
-                                        <picture>
-                                            <source type="image/webp">
-                                            <img loading="lazy"
-                                                src="static/images/book-covers/bangkok_betrayal_front.jpg"
-                                                srcset="static/images/book-covers/bangkok_betrayal_front.jpg"
-                                                class="d-block mx-auto poster-img-fluid book-posters"
-                                                alt="Bangkok Betrayal - Book Cover">
-                                        </picture>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div id="carouselExampleInterval" class="carousel slide d-none d-sm-block d-md-none d-block d-sm-none"
+                    data-bs-touch="false" data-bs-interval="false">
 
-                <!---Display Small--->
-                <div id="carouselExampleInterval" class="carousel slide d-sm-none" data-bs-touch="false"
-                    data-bs-interval="false">
-                    <div class="carousel-inner mx-auto">
-                        <div class="carousel-item active">
+                    <!---Display sm--->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
                             <div class="row mx-auto">
                                 <div class="col-12 mb-3 book-carousel">
                                     <a href="{{url_for('book1')}}">
@@ -188,7 +112,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto">
                                 <div class="col-12 mb-3 book-carousel">
                                     <a href="{{url_for('book2')}}">
@@ -203,7 +127,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto book-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{{url_for('book3')}}">
@@ -217,7 +141,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto book-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{{url_for('book4')}}">
@@ -232,7 +156,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto book-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{{url_for('book5')}}">
@@ -247,7 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto book-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{{url_for('book6')}}">
@@ -263,7 +187,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="row mx-auto book-carousel">
                                 <div class="col-12 mb-3">
                                     <a href="{{url_for('book7')}}">
@@ -280,13 +204,253 @@
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev d-sm-none" href="#carouselExampleInterval" role="button"
-                        data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next d-sm-none" href="#carouselExampleInterval" role="button"
-                        data-slide="next">
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div id="" class="carousel slide d-none d-md-block d-lg-none" data-ride="carousel">
+
+                    <!---Display md--->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row mx-auto">
+                                <div class="col-md-4 mb-3 book-carousel">
+                                    <a href="{{url_for('book1')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
+                                                srcset="static/images/book-covers/postmistress-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Postmistress of Nong Khai - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book2')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                                srset="static/images/book-covers/changmai-front.png"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Chiang Mai Assignment - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book3')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/mekong-front.png"
+                                                srcset="static/images/book-covers/mekong-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="Mekong Dragon - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book4')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/peccavi_front.png"
+                                                srcset="static/images/book-covers/peccavi-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Paccavi Plot - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book5')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/story_of_jett_front.jpg"
+                                                srcset="static/images/book-covers/story_of_jett_front.jpg"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Story of Jett - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book6')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                srcset="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="bangkok_betrayal - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book7')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="static/images/book-covers/the_story_of_jett_v3_front_cover.png"
+                                                srcset="static/images/book-covers/the_story_of_jett_v3_front_cover.png"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Story of jett 2 - The Quest Begins - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book4')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/peccavi_front.png"
+                                                srcset="static/images/book-covers/peccavi-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Paccavi Plot - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <a href="{{url_for('book6')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                srcset="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="bangkok_betrayal - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block d-xl-none d-none d-xl-block"
+                    data-ride="carousel">
+
+                    <!---Display lg--->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row mx-auto">
+                                <div class="col-lg-3 mb-3 book-carousel">
+                                    <a href="{{url_for('book1')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/postmistress-front.png"
+                                                srcset="static/images/book-covers/postmistress-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Postmistress of Nong Khai - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book2')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/changmai-front.png"
+                                                srset="static/images/book-covers/changmai-front.png"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Chiang Mai Assignment - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book3')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/mekong-front.png"
+                                                srcset="static/images/book-covers/mekong-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="Mekong Dragon - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book4')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/peccavi_front.png"
+                                                srcset="static/images/book-covers/peccavi-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Paccavi Plot - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row mx-auto">
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book5')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/story_of_jett_front.jpg"
+                                                srcset="static/images/book-covers/story_of_jett_front.jpg"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Story of Jett - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book6')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                srcset="static/images/book-covers/bangkok_betrayal_front.jpg"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="bangkok_betrayal - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book7')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy"
+                                                src="static/images/book-covers/the_story_of_jett_v3_front_cover.png"
+                                                srcset="static/images/book-covers/the_story_of_jett_v3_front_cover.png"
+                                                class="d-block w-50 mx-auto poster-img-fluid book-posters"
+                                                alt="The Story of jett 2 - The Quest Begins - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 mb-3">
+                                    <a href="{{url_for('book4')}}">
+                                        <picture>
+                                            <source type="image/webp">
+                                            <img loading="lazy" src="static/images/book-covers/peccavi_front.png"
+                                                srcset="static/images/book-covers/peccavi-front.png"
+                                                class="d-block w-50 mx-auto book-posters"
+                                                alt="The Paccavi Plot - Book Cover">
+                                        </picture>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                 </div>
