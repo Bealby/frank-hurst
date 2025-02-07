@@ -979,7 +979,7 @@ textarea {
 
 /*---PT for block container for better spacing between footer and content for mb/md/lg---*/
 
-@media(max-width:992px) {
+@media(min-width:992px) {
     .carousel-control-next, .carousel-control-prev {
         width: 6%;
     }
