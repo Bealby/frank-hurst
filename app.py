@@ -64,10 +64,15 @@ def book5():
 def book6():
     return render_template("book6.html")
 
-# Function to load 'Book6 - The Bangkok Betrayal'
+# Function to load 'Book7 - The Bangkok Betrayal'
 @app.route('/book7')
 def book7():
     return render_template("book7.html")
+
+# Function to load 'Book8 - The Shroouded Coast'
+@app.route('/book8')
+def book8():
+    return render_template("book8.html")
 
 # Function to load 'Gallery'
 
